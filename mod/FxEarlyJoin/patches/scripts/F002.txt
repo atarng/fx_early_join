@@ -1,0 +1,152 @@
+Include("Common")
+-- g_pid_lueur = "PID_リュール"
+ss
+-- -----------------------------------
+
+function Startup()
+	
+	Log("Startup")
+
+	-- 勝利条件の設定
+	WinRuleSetMID( "MID_RULE_F002_WIN" )
+	
+	イベント登録()
+	変数登録()
+	
+	if VariableIsExist("G_所持_AllowFX_c") then
+		VariableSet("G_所持_AllowFX_c", 1)
+	else
+		VariableEntry("G_所持_AllowFX_c", 1)
+	end
+end
+
+function イベント登録()
+	
+end
+
+-- -----------------------------------
+
+function condition_チュートリアル_ＨＰストック_再生許可()
+	return false
+end
+
+function condition_チュートリアル_ＨＰストック()
+	return false
+end
+
+function チュートリアル_ＨＰストック()
+end
+
+-- -----------------------------------
+
+function 変数登録()
+	
+end
+
+function Cleanup()
+	
+	Log("Cleanup")
+	
+end
+
+-- -----------------------------------
+
+function Opening()
+	Log("Opening")
+end
+
+function MapOpening()
+	Log("MapOpening")
+
+	CursorSetPos(13, 24)
+	MapCameraWait()
+		
+	WaitTime(0.5)
+	
+end
+
+-- -----------------------------------
+
+function 扉チュートリアル()
+	
+end
+
+-- -----------------------------------
+
+function condition_ノーマルか()
+	return false
+end
+
+function condition_ノーマル以上か()
+	return true	
+end
+
+function 盗賊_行動開始()
+
+end
+
+-- -----------------------------------
+
+function エリア_宝物庫進入()
+end
+
+function 宝物庫前AI変更_ソードファイター停止()
+
+end
+
+function 宝物庫前AI変更_全アクティブ化()
+
+end
+
+function 宝物庫前ソードファイターAI変更()
+
+end
+
+-- -----------------------------------
+
+function 玉座左壁破壊()
+
+end
+
+-- -----------------------------------
+
+function ボス部屋手前小隊アクティブ化()
+
+end
+
+-- -----------------------------------
+
+function condition_増援出現()
+	return false
+end
+
+function 増援出現()
+
+end
+
+function EmptyFunction()
+end
+
+-- -----------------------------------
+
+function condition_ボス行動開始()
+	return false
+end
+
+-- -----------------------------------
+
+function MapEnding()
+	
+	Log("MapEnding")
+	
+end
+
+function Ending()
+	Log("Ending")
+end
+
+function GameOver()
+	
+	Log("GameOver")
+	
+end

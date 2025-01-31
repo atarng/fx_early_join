@@ -1,0 +1,947 @@
+[MID_OP1_#001]
+$Type(2)
+$Window(0, "アルフレッド", "1")
+$Window(0, "セリーヌ", "3")
+$Window(0, "リュール", "2")
+$Window(2, "アルフレッド")
+There's the castle.$Wait(0)
+
+[MID_OP1_#002]
+$Window(2, "セリーヌ")
+It's so quiet... Where are our knights? Or the
+Elusian soldiers, for that matter?$Wait(0)
+
+[MID_OP1_#003]
+$Window(2, "アルフレッド")
+You said they were marching toward the castle
+when you left.$Wait(2)
+
+[MID_OP1_#004]
+They've probably made their way inside.$Wait(0)
+
+[MID_OP1_#005]
+$Window(2, "セリーヌ")
+But then...what of the townsfolk? What
+of Mother?!$Wait(0)
+
+[MID_OP1_#006]
+$Window(2, "リュール")
+Let's hurry.$Wait(0)
+
+[MID_OP2_#001]
+$Type(0, "PP")
+$Window(0, "M005_Irc_ボス", "1")
+$Window(0, "イヴ", "2")
+$Window(2, "イヴ")
+...$Wait(0)
+
+[MID_OP2_#002]
+$Window(2, "M005_Irc_ボス")
+Hate to break it to ya, Queenie, but our forces have taken
+the castle. This is the part where you tell me where
+you've got the ring stashed in here.
+$Wait(0)
+
+[MID_OP2_#003]
+$Window(2, "イヴ")
+Who's to say?$Wait(0)
+
+[MID_OP2_#004]
+$Window(2, "M005_Irc_ボス")
+Is it inside the castle? Out on the grounds?
+I'm asking all polite-like─c'mon!$Wait(0)
+
+[MID_OP2_#005]
+$Window(2, "イヴ")
+I'm not in the habit of speaking to lowly vermin.
+That's all that you are─the lot of you.$Wait(0)
+
+[MID_OP2_#006]
+$Window(2, "M005_Irc_ボス")
+The mouth on this one. You think I won't gut
+ya where you stand?!$Wait(0)
+
+[MID_OP2_#007]
+$Window(0, "セピア", "3")
+$Window(2, "セピア")
+I'd recommend against it, darling.$Wait(0)
+
+[MID_OP2_#008]
+$Window(2, "M005_Irc_ボス")
+Lady Zephia!$Wait(0)
+
+[MID_OP2_#009]
+$Window(2, "セピア")
+After all, Her Majesty can't tell us much of value
+if she's dead. Now, I come bearing news.$Wait(2)
+
+[MID_OP2_#010]
+One of our soldiers says he spotted the princess
+fleeing before we arrived. How curious.$Wait(2)
+
+[MID_OP2_#011]
+Did you perhaps give that daughter of yours
+the ring for safekeeping?$Wait(0)
+
+[MID_OP2_#012]
+$Window(2, "イヴ")
+...$Wait(0)
+
+[MID_OP2_#013]
+$Window(2, "セピア")
+Aw, well, isn't this tragic. We'd simply hate to resort
+to violence.$Wait(2)
+
+[MID_OP2_#014]
+You leave us no choice. By virtue of your silence, we will
+now kill every living soul in this castle, one by one.$Wait(0)
+
+[MID_OP2_#015]
+$Window(2, "イヴ")
+Please, no!$Wait(0)
+
+[MID_OP3_#001]
+$Type(2)
+$Window(0, "アルフレッド", "1")
+$Window(0, "セリーヌ", "3")
+$Window(2, "アルフレッド")
+Mother!$Wait(0)
+
+[MID_OP3_#002]
+$Window(2, "セリーヌ")
+Mother, we're here!$Wait(0)
+
+[MID_OP3_#003]
+$Window(1, "アルフレッド")
+$Window(1, "セリーヌ")
+$Window(0, "イヴ", "2")
+$Window(2, "イヴ")
+Alfred! Céline!$Wait(0)
+
+[MID_OP3_#004]
+$Window(0, "セピア", "4")
+$Window(2, "セピア")
+Oh, look. The kids are home.$Wait(0)
+
+[MID_OP3_#005]
+$Window(1, "イヴ")
+$Window(1, "セピア")
+$Window(0, "アルフレッド", "1")
+$Window(0, "セリーヌ", "3")
+$Window(2, "アルフレッド")
+You Elusian scum! Get away from her!$Wait(0)
+
+[MID_OP3_#006]
+$Window(1, "アルフレッド")
+$Window(1, "セリーヌ")
+$Window(0, "イヴ", "2")
+$Window(0, "セピア", "4")
+$Window(2, "セピア")
+Hm-hm. Who's going to make us?$Wait(2)
+
+[MID_OP3_#007]
+I'm glad you've come. Now we can see for
+ourselves if the princess has the ring.$Wait(0)
+
+[MID_OP3_#008]
+$Window(2, "イヴ")
+No! Please, leave my children alone!$Wait(0)
+
+[MID_OP3_#009]
+$Window(2, "セピア")
+Of course. As long as you tell me where the
+ring is.$Wait(0)
+
+[MID_OP3_#010]
+$Window(2, "イヴ")
+I...$Wait(0)
+
+[MID_OP3_#011]
+$Window(2, "セピア")
+Ah. Young Céline does have it, doesn't she?$Wait(2)
+
+[MID_OP3_#012]
+We'll have to kill her, then. The prince, too, for
+good measure.$Wait(2)
+
+[MID_OP3_#013]
+Take Her Majesty away. We'll continue our
+conversation later, if need be.$Wait(0)
+
+[MID_OP3_#014]
+$Window(2, "イヴ")
+Unhand me!$Wait(2)
+
+[MID_OP4_#001]
+$Type(2)
+$Window(0, "アルフレッド", "4")
+$Window(2, "アルフレッド")
+Mother!$Wait(0)
+
+[MID_OP4_#002]
+$Window(0, "リュール", "2")
+$Window(2, "リュール")
+Let her go!$Wait(0)
+
+[MID_OP4_#003]
+$Window(0, "セピア", "1")
+$Window(2, "セピア")
+All right. Enough with the dramatics.$Wait(2)
+
+[MID_OP4_#004]
+Huh? You... You look familiar.$Wait(0)
+
+[MID_OP4_#005]
+$Window(2, "リュール")
+...$Wait(0)
+
+[MID_OP4_#006]
+$Window(2, "セピア")
+No. It couldn't be.$Wait(2)
+
+[MID_OP4_#007]
+Who are you?$Wait(0)
+
+[MID_OP4_#008]
+$Window(2, "リュール")
+I am the Divine Dragon $P.$Wait(0)
+
+[MID_OP4_#009]
+$Window(2, "セピア")
+Such lies. Lumera is the last of her kind.$Wait(0)
+
+[MID_OP4_#010]
+$Window(2, "アルフレッド")
+Shows what you know. The Divine One was
+asleep for a thousand years.$Wait(0)
+
+[MID_OP4_#011]
+$Window(2, "セピア")
+Really? When did that beastly woman have
+a child?$Wait(2)
+
+[MID_OP4_#012]
+Hmph. Very well. Perhaps you can tell me what
+happened to dear Lumera, then.$Wait(2)
+
+[MID_OP4_#013]
+I've been so worried about her since that awful
+battle at Lythos Castle.$Wait(0)
+
+[MID_OP4_#014]
+$Window(2, "リュール")
+How do you know about that?$Wait(0)
+
+[MID_OP4_#015]
+$Window(2, "セピア")
+How, indeed.$Wait(0)
+
+[MID_OP4_#016]
+$Window(2, "リュール")
+You stole the rings? You killed my mother?!$Wait(0)
+
+[MID_OP4_#017]
+$Window(2, "セピア")
+She died?! Oh, that poor dear.$Wait(0)
+
+[MID_OP4_#018]
+$Window(2, "リュール")
+Murderer! I will avenge her!$Wait(0)
+
+[MID_OP4_#019]
+$Window(2, "セピア")
+Why, I didn't kill her.$Wait(2)
+
+[MID_OP4_#020]
+I will say, your coming here was quite helpful─
+assuming you are the beast's offspring.$Wait(2)
+
+[MID_OP4_#021]
+Because that means you have them, don't you?
+The rings of the Hero-King and the Holy Knight.$Wait(0)
+
+[MID_OP4_#022]
+$Window(2, "リュール")
+You'll never take them. Never.$Wait(0)
+
+[MID_OP4_#023]
+$Window(2, "アルフレッド")
+You were after our ring.$Wait(0)
+
+[MID_OP4_#024]
+$Window(2, "セピア")
+I won't waste my breath on explanations.
+But I will tell you this.$Wait(2)
+
+[MID_OP4_#025]
+The kingdom of Elusia has freed Lord Sombron
+from his imprisonment.$Wait(0)
+
+[MID_OP4_#026]
+$Window(2, "リュール")
+The Fell Dragon has returned?$Wait(0)
+
+[MID_OP4_#027]
+$Window(2, "アルフレッド")
+No...$Wait(0)
+
+[MID_OP4_#028]
+$Window(2, "セピア")
+Of course, even we couldn't have accounted
+for...you.$Wait(2)
+
+[MID_OP4_#029]
+His return must have awoken you. Show a
+little gratitude.$Wait(0)
+
+[MID_OP4_#030]
+$Window(2, "リュール")
+You're wrong. I awoke because of my mother.$Wait(2)
+
+[MID_OP4_#031]
+Because she waited for me, all these years...$Wait(0)
+
+[MID_OP4_#032]
+$Window(2, "セピア")
+A touching tale, I'm sure.$Wait(2)
+
+[MID_OP4_#033]
+Now, if you'll excuse me.$Wait(0)
+
+[MID_OP5_#001]
+$Type(1)
+$Window(0, "リュール", "b")
+$Anim(1, "リュール", "Angry")
+$Window(2, "リュール")
+Wait!$Wait(0)
+
+[MID_OP5_#002]
+$Wait(3, 0)
+
+[MID_OP5_#003]
+$Window(0, "アルフレッド", "t")
+$Anim(1, "アルフレッド", "Strike")
+$Window(2, "アルフレッド")
+What can we do?$Wait(0)
+
+[MID_OP5_#004]
+$Anim(1, "リュール", "Angry")
+$Window(2, "リュール")
+To start, we defeat these soldiers and take
+back the castle.$Wait(2)
+
+[MID_OP5_#005]
+I'm not going to let them hurt Queen Ève or
+anyone else.$Wait(0)
+
+[MID_OP6_#001]
+$Type(1)
+$Window(0, "セピア", "t")
+$Anim(1, "セピア", "Angry")
+$Window(2, "セピア")
+Get the rings. No prisoners.$Wait(0)
+
+[MID_OP6_#002]
+$Window(0, "M005_Irc_ボス", "b")
+$Anim(1, "M005_Irc_ボス", "Angry")
+$Window(2, "M005_Irc_ボス")
+I was hopin' you'd say that.$Wait(0)
+
+[MID_EV1_#001]
+$Type(1)
+$Window(0, "リュール", "t")
+$Anim(1, "リュール", "Pain")
+$Window(2, "リュール")
+The door's locked. What should we do?$Wait(0)
+
+[MID_EV1_#002]
+$Window(0, "アルフレッド", "b")
+$Anim(1, "アルフレッド", "Strike")
+$Window(2, "アルフレッド")
+There's no time to find the key! Let's use brute
+force to knock it down.$Wait(0)
+
+[MID_EV2_#001]
+$Type(1)
+$Window(0, "M005_シーフ", "b")
+$Anim(1, "M005_シーフ", "Smile")
+$Window(2, "M005_シーフ")
+Ooo hoo hoo, the castle's under siege!
+Mighty fine time to nab some treasure.$Wait(0)
+
+[MID_EV3_#001]
+$Type(1)
+$Window(0, "リュール", "t")
+$Anim(1, "リュール", "Strike")
+$Window(2, "リュール")
+Thieves, here, now? That's the last thing we
+need. We'd better stop them.$Wait(0)
+
+[MID_EV4_#001]
+$Type(1)
+$Window(0, "リュール", "t")
+$Anim(1, "リュール", "Angry")
+$Window(2, "リュール")
+It looks like we can break that wall. We could
+catch the enemy by surprise if we do that.$Wait(0)
+
+[MID_EV5_#001]
+$Type(1)
+$Window(0, "M005_Irc_ボス", "b")
+$Anim(1, "M005_Irc_ボス", "Status")
+$Window(2, "M005_Irc_ボス")
+Hah! That all you got?!$Wait(0)
+
+[MID_EV5_#002]
+$Window(0, "リュール", "t")
+$Anim(1, "リュール", "Pain")
+$Window(2, "リュール")
+This one's a tough opponent. He can keep on
+fighting, even after taking a fatal blow.$Wait(0)
+
+[MID_BT1_#001]
+$Type(1)
+$Window(0, "M005_Irc_ボス", "b")
+$Anim(1, "M005_Irc_ボス", "Smile")
+$Window(2, "M005_Irc_ボス")
+Those shiny rings of yours are gonna be mine,
+mine, mine! Reward, here I come! $Wait(0)
+
+[MID_BT2_#001]
+$Type(1)
+$Window(0, "アルフレッド", "t")
+$Anim(1, "アルフレッド", "Angry")
+$Window(2, "アルフレッド")
+You invaded my castle and threatened my
+mother. I'll slay you where you stand!$Wait(0)
+
+[MID_BT2_#002]
+$Window(0, "M005_Irc_ボス", "b")
+$Anim(1, "M005_Irc_ボス", "Status")
+$Window(2, "M005_Irc_ボス")
+Oh, the prince of Flowerland is threatening me!
+I'm real scared!$Wait(0)
+
+[MID_BT3_#001]
+$Type(1)
+$Window(0, "M005_Irc_ボス", "b")
+$Anim(1, "M005_Irc_ボス", "Smile")
+$Window(2, "M005_Irc_ボス")
+Looky here, the runaway princess! I'll make you
+fly the coop again.$Wait(0)
+
+[MID_BT3_#002]
+$Window(0, "セリーヌ", "t")
+$Anim(1, "セリーヌ", "Angry")
+$Window(2, "セリーヌ")
+I am not running this time. It will be you who
+flees for your life.$Wait(0)
+
+[MID_BT4_#001]
+$Type(1)
+$Window(0, "リュール", "t")
+$Anim(1, "リュール", "Strike")
+$Window(2, "リュール")
+I will show you no mercy. Prepare to die.$Wait(0)
+
+[MID_BT4_#002]
+$Window(0, "M005_Irc_ボス", "b")
+$Anim(1, "M005_Irc_ボス", "Status")
+$Window(2, "M005_Irc_ボス")
+Ooo, the Divine Dragon. If I kill you, I won't
+have to lick her boots anymore!$Wait(0)
+
+[MID_BT5_#001]
+$Type(1)
+$Window(0, "M005_Irc_ボス", "b")
+$Anim(1, "M005_Irc_ボス", "Pain")
+$Window(2, "M005_Irc_ボス")
+I'd better get outta here.$Wait(0)
+
+[MID_ED1_#001]
+$Type(2)
+$Window(0, "セリーヌ", "4")
+$Window(0, "アルフレッド", "2")
+$Window(2, "セリーヌ")
+Alfred, Mother is in the back room! She's OK.$Wait(0)
+
+[MID_ED1_#002]
+$Window(2, "アルフレッド")
+Oh, that's a relief.$Wait(0)
+
+[MID_ED1_#003]
+$Window(0, "イヴ", "1")
+$Window(2, "イヴ")
+Thank you, all of you, for rescuing me.$Wait(2)
+
+[MID_ED1_#004]
+My children, you're safe. What a relief.$Wait(0)
+
+[MID_ED1_#005]
+$Window(2, "アルフレッド")
+We have a guest, Mother. Someone came all
+the way from Lythos to see you.$Wait(2)
+
+[MID_ED1_#006]
+$Window(2, "イヴ")
+The Divine Dragon $P?$Wait(0)
+
+[MID_ED1_#007]
+$Window(1, "アルフレッド")
+$Window(1, "セリーヌ")
+$Window(0, "リュール", "2")
+$Window(2, "リュール")
+Queen Ève, it's an honor to meet you. I'm so
+glad that you're all right.$Wait(2)
+
+[MID_ED1_#008]
+I've come here by invitation of Prince Alfred.$Wait(0)
+
+[MID_ED1_#009]
+$Window(2, "イヴ")
+Just look at you. Awake at long last.$Wait(2)
+
+[MID_ED1_#010]
+I am Ève, the queen of Firene. It is my absolute
+pleasure to welcome you.$Wait(0)
+
+[MID_ED1_#011]
+$Window(0, "アルフレッド", "4")
+$Window(2, "アルフレッド")
+The Divine Dragon has come to help our
+country, Mother.$Wait(2)
+
+[MID_ED1_#012]
+We were just in time to rescue Céline.$Wait(2)
+
+[MID_ED1_#013]
+And get this! The Divine One summoned
+Emblem Celica from our ring.$Wait(0)
+
+[MID_ED1_#014]
+$Window(2, "イヴ")
+The legendary Emblem! Oh my,
+how extraordinary.$Wait(2)
+
+[MID_ED1_#015]
+Thank you, sincerely. You have my
+deepest gratitude.$Wait(2)
+
+[MID_ED1_#016]
+My family is safe because of you.$Wait(2)
+
+[MID_ED1_#017]
+You are blessed with the same powers as
+your mother. How is Queen Lumera?$Wait(0)
+
+[MID_ED1_#018]
+$Window(2, "リュール")
+Well, she's...$Wait(2)
+
+[MID_ED1_#019]
+She's gone. My mother passed away.$Wait(0)
+
+[MID_ED1_#020]
+$Window(2, "イヴ")
+No...$Wait(2)
+
+[MID_ED1_#021]
+That's awful. I'm so sorry.$Wait(0)
+
+[MID_ED1_#022]
+$Window(2, "リュール")
+Some intruders entered the castle. They tried
+to kill me, but...$Wait(2)
+
+[MID_ED1_#023]
+She gave her life to protect mine.$Wait(0)
+
+[MID_ED1_#024]
+$Window(2, "イヴ")
+Oh... How tragic...$Wait(0)
+
+[MID_ED1_#025]
+$Window(2, "リュール")
+I'm glad that...that I could spare your children
+the pain of losing their mother...$Wait(2)
+
+[MID_ED1_#026]
+...$Wait(0)
+
+[MID_ED1_#027]
+$Window(2, "イヴ")
+My heart goes out to you...$Wait(0)
+
+[MID_ED1_#028]
+$Window(2, "リュール")
+Forgive me. We've only just met and here I am,
+laying my grief at your feet.$Wait(2)
+
+[MID_ED1_#029]
+I just wish I could have saved her too.$Wait(2)
+
+[MID_ED1_#030]
+$Window(2, "イヴ")
+Divine One...$Wait(2)
+
+[MID_ED1_#031]
+While I cannot take away your sorrow, perhaps
+I can help you bear it.$Wait(2)
+
+[MID_ED1_#032]
+To reunite with her, and then lose her so soon...
+I can only imagine how painful that was.$Wait(2)
+
+[MID_ED1_#033]
+For now, allow yourself to grieve, knowing that
+I grieve with you.$Wait(0)
+
+[MID_ED1_#034]
+$Window(2, "リュール")
+Thank you, Queen Ève.$Wait(2)
+
+[MID_ED1_#035]
+Your warmth, your kindness... It's almost like
+she's here with me.$Wait(0)
+
+[MID_ED2_#001]
+$Type(2)
+$Window(0, "イヴ", "1")
+$Window(0, "リュール", "2")
+$Window(0, "アルフレッド", "3")
+$Window(0, "セリーヌ", "4")
+$Window(2, "イヴ")
+How are you feeling?$Wait(0)
+
+[MID_ED2_#002]
+$Window(2, "リュール")
+Better. I'm sorry you had to see me like that.$Wait(0)
+
+[MID_ED2_#003]
+$Window(2, "アルフレッド")
+No, we shouldn't have dragged you into all
+this...right now.$Wait(2)
+
+[MID_ED2_#004]
+I'm sorry, Divine One.$Wait(0)
+
+[MID_ED2_#005]
+$Window(2, "セリーヌ")
+As am I.$Wait(0)
+
+[MID_ED2_#006]
+$Window(2, "リュール")
+But if I hadn't left when I did, what might have
+happened to you, Céline? Or you, Queen Ève?$Wait(2)
+
+[MID_ED2_#007]
+I'm proud to serve people in need, like my
+mother did.$Wait(0)
+
+[MID_ED2_#008]
+$Window(2, "アルフレッド")
+Thank you.$Wait(0)
+
+[MID_ED2_#009]
+$Window(2, "リュール")
+Now, the Elusian leader... She said her kingdom
+released the Fell Dragon.$Wait(2)
+
+[MID_ED2_#010]
+I take it that's why the Corrupted are appearing
+in Elyos again.$Wait(0)
+
+[MID_ED2_#011]
+$Window(2, "アルフレッド")
+Now there's no question that the Fell Dragon's
+after the rings.$Wait(2)
+
+[MID_ED2_#012]
+Which means we need to hurry. Head them off
+before they can reach the next one.$Wait(0)
+
+[MID_ED2_#013]
+$Window(2, "リュール")
+Queen Ève, your country's ring... May I take it?$Wait(0)
+
+[MID_ED2_#014]
+$Window(2, "イヴ")
+Of course. The kingdom of Firene gives it with
+love, trust, and gratitude.$Wait(0)
+
+[MID_ED2_#015]
+$Window(2, "リュール")
+Thank you very much.$Wait(0)
+
+[MID_ED2_#016]
+$Window(2, "イヴ")
+There is something you should know, however...$Wait(2)
+
+[MID_ED2_#017]
+My kingdom has another Emblem Ring in
+its possession.$Wait(0)
+
+[MID_ED2_#018]
+$Window(2, "アルフレッド")
+What? Since when?$Wait(0)
+
+[MID_ED2_#019]
+$Window(2, "セリーヌ")
+There is another ring? Here, in Firene?$Wait(0)
+
+[MID_ED2_#020]
+$Window(2, "イヴ")
+It was kept secret to avoid conflict.$Wait(2)
+
+[MID_ED2_#021]
+For generations, knowledge of this ring has
+been confined to the monarchs of Firene.$Wait(2)
+
+[MID_ED2_#022]
+However, now that the Fell Dragon has arisen,
+it is best to dispel the shroud of secrecy.$Wait(2)
+
+[MID_ED2_#023]
+It is commonly thought that the Divine Dragon
+gave one ring to each country's leader.$Wait(2)
+
+[MID_ED2_#024]
+However, Firene received a second.$Wait(2)
+
+[MID_ED2_#025]
+The Ring of the Dawn Maiden.$Wait(0)
+
+[MID_ED2_#026]
+$Window(2, "リュール")
+I see...$Wait(0)
+
+[MID_ED2_#027]
+$Window(2, "イヴ")
+To ensure that no one would find it, the ring
+was hidden away far from the castle.$Wait(2)
+
+[MID_ED2_#028]
+It rests in a shrine on the Brodian border.$Wait(0)
+
+[MID_ED2_#029]
+$Window(2, "アルフレッド")
+Ah, I remember those old ruins.$Wait(0)
+
+[MID_ED2_#030]
+$Window(2, "セリーヌ")
+What? You do?$Wait(0)
+
+[MID_ED2_#031]
+$Window(2, "アルフレッド")
+Yeah. Mother took me there after Father died.$Wait(2)
+
+[MID_ED2_#032]
+She told me to keep the location in mind.
+At the time, I didn't know why...$Wait(2)
+
+[MID_ED2_#033]
+Now it makes sense.$Wait(0)
+
+[MID_ED2_#034]
+$Window(2, "イヴ")
+I was preparing you for the day you
+became king.$Wait(0)
+
+[MID_ED2_#035]
+$Window(2, "アルフレッド")
+I'll take everyone to the shrine. From there,
+I can continue on with the Divine Dragon.$Wait(0)
+
+[MID_ED2_#036]
+$Window(2, "イヴ")
+So you are leaving, Alfred.$Wait(0)
+
+[MID_ED2_#037]
+$Window(2, "アルフレッド")
+Yes. I want to do my part to end this war.$Wait(2)
+
+[MID_ED2_#038]
+With your blessing, Mother, I'm going to help
+the Divine Dragon bring peace to Elyos.$Wait(0)
+
+[MID_ED2_#039]
+$Window(2, "セリーヌ")
+Mother, I would like to join as well.$Wait(0)
+
+[MID_ED2_#040]
+$Window(2, "リュール")
+Alfred... Céline...$Wait(2)
+
+[MID_ED2_#041]
+$Window(2, "イヴ")
+You have my blessing. I know you will serve the
+Divine Dragon with honor.$Wait(2)
+
+[MID_ED2_#042]
+On one condition. Swear to me that you will
+come back alive.$Wait(0)
+
+[MID_ED2_#043]
+$Window(2, "アルフレッド")
+I swear it.$Wait(0)
+
+[MID_ED2_#044]
+$Window(2, "セリーヌ")
+I swear it.$Wait(0)
+
+[MID_ED2_#045]
+$Window(2, "リュール")
+Thank you very much, Queen Ève.$Wait(0)
+
+[MID_ED2_#046]
+$Window(2, "イヴ")
+I trust that you will take some time to rest prior
+to your departure.$Wait(2)
+
+[MID_ED2_#047]
+The journey ahead will be arduous, but know
+that you are all in my prayers.$Wait(2)
+
+[MID_ED2_#048]
+May good fortune shine upon you.$Wait(0)
+
+[MID_ED3_#001]
+$Type(2)
+$Window(0, "錬成屋", "1")
+$Window(0, "アクセ屋", "3")
+$Window(2, "錬成屋")
+Hey there! You're the Divine Dragon, right?
+Got a second to talk?$Wait(0)
+
+[MID_ED3_#002]
+$Window(0, "リュール", "2")
+$Window(2, "リュール")
+Who might you be?$Wait(0)
+
+[MID_ED3_#003]
+$Window(2, "錬成屋")
+Me, I'm a blacksmith. You can call me Calney.$Wait(0)
+
+[MID_ED3_#004]
+$Window(2, "アクセ屋")
+And I am Pinet, a clothier. Pleased to meet you.$Wait(0)
+
+[MID_ED3_#005]
+$Window(2, "錬成屋")
+I'll cut right to it. Our friend Durthon wrote us
+and said he opened a shop at your base.$Wait(2)
+
+[MID_ED3_#006]
+And, well... We'd like to go there too. We'll be a
+real help! I can strengthen your weapons.$Wait(0)
+
+[MID_ED3_#007]
+$Window(2, "アクセ屋")
+My clothes and accessories won't win you any
+battles, but they will catch eyes and turn heads.$Wait(0)
+
+[MID_ED3_#008]
+$Window(2, "リュール")
+If Durthon vouches for you, that's good enough
+for me. Please, come along to the Somniel.$Wait(0)
+
+[MID_ED3_#009]
+$Window(2, "錬成屋")
+Really? That's great! You'll be glad to have us
+around, I promise.$Wait(0)
+
+[MID_ED3_#010]
+$Window(2, "アクセ屋")
+Indeed. Thank you, Divine One.$Wait(0)
+
+[MID_ED4C_#001]
+Ugh... OK. I think I lost 'em...
+
+[MID_ED4C_#002]
+Really! You sure about that, darling?
+
+[MID_ED4C_#003]
+AH!
+
+[MID_ED4C_#004]
+You're shaking like a leaf. I take it you failed to
+obtain the ring.
+
+[MID_ED4C_#005]
+Uh! Apologies, ma'am! Those guys were tougher
+than they looked!
+
+[MID_ED4C_#006]
+But I─ I can tell you things! Stuff that'll help you track it
+down! Like the fact that Princess Céline ran off with it.
+
+[MID_ED4C_#007]
+The Divine Dragon $P has it now.
+Pretty good info, right? Heh...
+
+[MID_ED4C_#008]
+Hmm...
+
+[MID_ED4C_#009]
+Whaddaya say? How 'bout we call it even this
+time around? I won't let you down again.
+
+[MID_ED4C_#010]
+Oh, how naive you are.
+
+[MID_ED4C_#010_2]
+After you fail me once, there is no second chance.
+
+[MID_ED4C_#011]
+No! Please don't kill me! Please don't kill me!
+
+[MID_ED4C_#012]
+AAH!
+
+[MID_ED4C_#013]
+Hmph.
+
+[MID_ED4C_#014]
+ 
+
+[MID_ED4C_#015]
+I am sorry, my lady. Apologies for the mess.
+And our failure to acquire the ring.
+
+[MID_ED4_#001]
+$Type(2)
+$Window(0, "ヴェイル_フード", "1")
+$Window(0, "セピア", "2")
+$Window(2, "ヴェイル_フード")
+I was expecting to get at least one.$Wait(2)
+
+[MID_ED4_#002]
+At least now we know that Lumera is dead.$Wait(0)
+
+[MID_ED4_#003]
+$Window(2, "セピア")
+Yes, but there's another Divine Dragon to take
+her place. I can't believe that beast had a child.$Wait(0)
+
+[MID_ED4_#004]
+$Window(2, "ヴェイル_フード")
+It does explain why she was so willing to
+sacrifice her life.$Wait(0)
+
+[MID_ED4_#005]
+$Window(2, "セピア")
+What should we do?$Wait(0)
+
+[MID_ED4_#006]
+$Window(2, "ヴェイル_フード")
+The battle at Lythos Castle took its toll. We're
+in no shape for another confrontation.$Wait(2)
+
+[MID_ED4_#007]
+We best lie low for a spell. Leave them be.
+For now.$Wait(0)
+
+[MID_ED4_#008]
+$Window(2, "セピア")
+Understood.$Wait(0)
+

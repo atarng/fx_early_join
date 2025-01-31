@@ -1,0 +1,908 @@
+[MID_OP1_#001]
+$Type(2)
+$Window(0, "アルフレッド", "1")
+$Window(0, "リュール", "2")
+$Window(2, "アルフレッド")
+Here we are─the kingdom of Firene.$Wait(0)
+
+[MID_OP1_#002]
+$Window(2, "リュール")
+What a beautiful place.$Wait(0)
+
+[MID_OP1_#003]
+$Window(2, "アルフレッド")
+Isn't it? And no sign of the Corrupted, so
+that's good.$Wait(2)
+
+[MID_OP1_#004]
+That was quite a trip, crossing the sea all the
+way from Lythos. I hope you're not worn out.$Wait(0)
+
+[MID_OP1_#005]
+$Window(2, "リュール")
+I'm fine.$Wait(0)
+
+[MID_OP1_#006]
+$Window(2, "アルフレッド")
+Good, good. Listen, I'm sorry for twisting your
+arm to come with me.$Wait(0)
+
+[MID_OP1_#007]
+$Window(2, "リュール")
+Alfred, it's all right. I wanted to come.$Wait(2)
+
+[MID_OP1_#008]
+How about before we arrive at the castle, you
+tell me more about this kingdom of yours?$Wait(0)
+
+[MID_OP1_#009]
+$Window(2, "アルフレッド")
+Happy to! Let's see...$Wait(2)
+
+[MID_OP1_#010]
+Firene is one of the four nations of Elyos,
+in the southwest.$Wait(2)
+
+[MID_OP1_#011]
+It's ruled by my mother, Queen Ève. We're
+known as a...land of plenty.$Wait(2)
+
+[MID_OP1_#012]
+Our people value peace above all else.
+We haven't seen war for centuries.$Wait(0)
+
+[MID_OP1_#013]
+$Window(2, "リュール")
+You must come from a long line of
+capable leaders.$Wait(0)
+
+[MID_OP1_#014]
+$Window(2, "アルフレッド")
+That's kind of you to say. Peace doesn't
+always come easy.$Wait(2)
+
+[MID_OP1_#015]
+Mother had to hammer out a nonaggression
+pact with our neighbors.$Wait(2)
+
+[MID_OP1_#016]
+The pact says there won't be war between us,
+Solm, and Brodia.$Wait(0)
+
+[MID_OP1_#017]
+$Window(2, "リュール")
+Right─Solm, the Queendom of Freedom and
+Brodia, the Kingdom of Might.$Wait(0)
+
+[MID_OP1_#018]
+$Window(2, "アルフレッド")
+You've got it. Solm is an open-minded country.
+They've always had good relations with Firene.$Wait(2)
+
+[MID_OP1_#019]
+But an alliance with Brodia took some doing.
+Their king's an ambitious man.$Wait(2)
+
+[MID_OP1_#020]
+He's always launching attacks on Elusia to
+expand his own territory.$Wait(0)
+
+[MID_OP1_#021]
+$Window(2, "リュール")
+I take it Elusia isn't in the alliance.$Wait(0)
+
+[MID_OP1_#022]
+$Window(2, "アルフレッド")
+No. Honestly, they're so far away, we don't
+interact with them too much.$Wait(2)
+
+[MID_OP1_#023]
+We know it's snowy there, with long winters...
+and that some Elusians worship the Fell Dragon.$Wait(0)
+
+[MID_OP1_#024]
+$Window(2, "リュール")
+The Fell Dragon?$Wait(0)
+
+[MID_OP1_#025]
+$Window(2, "アルフレッド")
+It's troubling, I know. But...people can believe
+what they believe.$Wait(2)
+
+[MID_OP1_#026]
+Sorry... I didn't bring it up to turn you
+against Elusia.$Wait(0)
+
+[MID_OP1_#027]
+$Window(2, "リュール")
+It's not them I hate─it's the Fell Dragon.
+Him and the one who killed my mother.$Wait(2)
+
+[MID_OP1_#028]
+Can you tell me more about the Emblem Ring
+that was entrusted to Firene?$Wait(0)
+
+[MID_OP1_#029]
+$Window(2, "アルフレッド")
+Oh, sure. It's the "Ring of the Caring Princess."
+Doesn't look like anything special.$Wait(2)
+
+[MID_OP1_#030]
+Until I met you and Marth, I thought the
+Emblems were legends.$Wait(2)
+
+[MID_OP1_#031]
+I can't wait to tell my sister they exist! She'll
+really be knocked for a loop.$Wait(0)
+
+[MID_OP1_#032]
+$Window(2, "リュール")
+You have a sister?$Wait(0)
+
+[MID_OP1_#033]
+$Window(2, "アルフレッド")
+Yeah─the princess of Firene, Céline. She's at
+the castle with Mother right now.$Wait(0)
+
+[MID_OP1_#034]
+$Window(2, "リュール")
+Princess Céline. I look forward to meeting her.$Wait(0)
+
+[MID_OP1_#035]
+$Window(2, "アルフレッド")
+Just call her Céline. I'm sure you two will get
+along great.$Wait(2)
+
+[MID_OP1_#036]
+Here's Florra Mill Town. The castle's close now.
+We'll just cut through here, and...$Wait(2)
+
+[MID_OP1_#037]
+Something's off.$Wait(0)
+
+[MID_OP1_#038]
+$Window(2, "リュール")
+What is it?$Wait(0)
+
+[MID_OP1_#039]
+$Window(2, "アルフレッド")
+I think there might be trouble ahead.$Wait(0)
+
+[MID_OP2_#001]
+$Type(1)
+$Window(0, "アルフレッド", "t")
+$Anim(1, "アルフレッド", "Angry")
+$Window(2, "アルフレッド")
+Oh no...$Wait(0)
+
+[MID_OP3_#001]
+$Type(1)
+$Window(0, "リュール", "b")
+$Anim(1, "リュール", "Pain")
+$Window(2, "リュール")
+The Corrupted. They're everywhere.$Wait(0)
+
+[MID_OP3_#002]
+$Window(0, "アルフレッド", "t")
+$Anim(1, "アルフレッド", "Sad")
+$Window(2, "アルフレッド")
+I can't stand to see them overrunning this
+peaceful town.$Wait(2)
+
+[MID_OP3_#003]
+$Anim(1, "アルフレッド", "Angry")
+I have to drive them away. Divine One, will you
+help me?$Wait(0)
+
+[MID_OP3_#004]
+$Anim(1, "リュール", "Angry")
+$Window(2, "リュール")
+Of course.$Wait(0)
+
+[MID_OP4_#001]
+$Type(0, "Default")
+$Window(0, "ルイ", "1")
+$Window(0, "セリーヌ", "2")
+$Window(0, "クロエ", "3")
+$Window(2, "セリーヌ")
+Danger looms from every side. I fear we will
+never make it to my brother.$Wait(0)
+
+[MID_OP4_#002]
+$Window(2, "ルイ")
+Princess Céline. I beg you to make your retreat.
+We'll handle this.$Wait(0)
+
+[MID_OP4_#003]
+$Window(2, "クロエ")
+More of the fiends might be on the way. Hurry!$Wait(0)
+
+[MID_OP4_#004]
+$Window(2, "セリーヌ")
+Louis! Chloé! You can't possibly expect me to─$Wait(0)
+
+[MID_OP4_#005]
+$Window(2, "ルイ")
+It is our sworn duty to protect the princess. We
+will hold the line for you as long as we must!$Wait(0)
+
+[MID_OP4_#006]
+$Window(2, "クロエ")
+You have to leave. If you should fall here, who
+warns Prince Alfred of the invasion to come?$Wait(0)
+
+[MID_OP4_#007]
+$Window(2, "セリーヌ")
+I concede the point. But I'll return for you both.
+Please hold out until then!$Wait(0)
+
+[MID_OP4_#008]
+$Window(1, "セリーヌ")
+$Window(2, "ルイ")
+Apologies, Chloé.$Wait(2)
+
+[MID_OP4_#009]
+It pains me greatly to separate you from Princess Céline,
+for even a relatively brief amount of time.$Wait(0)
+
+[MID_OP4_#010]
+$Window(2, "クロエ")
+Might I say, I'm a bit disappointed I didn't get to
+see you run off with Her Highness yourself.$Wait(2)
+
+[MID_OP4_#011]
+A knight should never leave his princess's side.$Wait(0)
+
+[MID_OP4_#012]
+$Window(2, "ルイ")
+The sooner we win, the sooner that will come to
+pass. What say you, Chloé? Shall we?$Wait(0)
+
+[MID_OP4_#013]
+$Window(2, "クロエ")
+Yes! Let's!$Wait(0)
+
+[MID_OP5_#001]
+$Type(1)
+$Window(0, "セリーヌ", "b")
+$Anim(1, "セリーヌ", "Surprise")
+$Window(2, "セリーヌ")
+Alfred!$Wait(0)
+
+[MID_OP5_#002]
+$Window(0, "アルフレッド", "t")
+$Anim(1, "アルフレッド", "Surprise")
+$Window(2, "アルフレッド")
+Céline? What are you doing here? I thought
+you were with Mother.$Wait(0)
+
+[MID_OP5_#003]
+$Anim(1, "セリーヌ", "Sad")
+$Window(2, "セリーヌ")
+I was, but... Alfred, the Elusian army is marching
+on the castle.$Wait(0)
+
+[MID_OP5_#004]
+$Window(2, "アルフレッド")
+What? Why?$Wait(0)
+
+[MID_OP5_#005]
+$Window(2, "セリーヌ")
+I cannot say. Before they arrived, Mother sent
+me to warn you.$Wait(2)
+
+[MID_OP5_#006]
+But then we were ambushed on our way to
+Florra Port...$Wait(2)
+
+[MID_OP5_#007]
+$Anim(1, "セリーヌ", "Angry")
+Louis and Chloé stayed behind so that I might
+have a chance to escape.$Wait(2)
+
+[MID_OP5_#008]
+Please, we must hurry back to them!$Wait(0)
+
+[MID_OP5_#009]
+$Anim(1, "アルフレッド", "Angry")
+$Window(2, "アルフレッド")
+Absolutely.$Wait(0)
+
+[MID_OP5_#010]
+$Window(1, "アルフレッド")
+$Window(0, "リュール", "t")
+$Window(2, "リュール")
+Pardon me, Princess Céline, but do you have
+the Emblem Ring?$Wait(0)
+
+[MID_OP5_#011]
+$Anim(1, "セリーヌ", "Normal")
+$Window(2, "セリーヌ")
+Yes. Mother gave it to me. Why do you...$Wait(2)
+
+[MID_OP5_#012]
+$Anim(1, "セリーヌ", "Surprise")
+Goodness gracious! The Divine Dragon
+$P?! You're here, you're...awake!$Wait(0)
+
+[MID_OP5_#013]
+$Window(2, "リュール")
+I am.$Wait(0)
+
+[MID_OP5_#014]
+$Anim(1, "セリーヌ", "Smile")
+$Window(2, "セリーヌ")
+May I say, it is truly an honor!$Wait(2)
+
+[MID_OP5_#015]
+$Show(0, "Tex_Event_ItemPicture_04", "picture_item_fade_in_normal")
+The Emblem Ring is right here. Please, Divine
+One. It is yours.$Wait(0)
+
+[MID_OP5_#016]
+$Anim(1, "リュール", "Surprise")
+$Window(2, "リュール")
+The words... They're coming to me...$Wait(2)
+
+[MID_OP5_#017]
+$Anim(1, "リュール", "StandBy")
+$Hide(0, "picture_item_fade_out_normal")
+$Show(1, "Tex_Event_Effect_White", "picture_fade_in_slow")
+Care for us, Emblem of Echoes!$Wait(0)
+$Fade(1, 0, 52481)
+
+[MID_OP6_#001]
+$Type(1)
+$Window(0, "セリカ", "b")
+$Anim(1, "セリカ", "Normal")
+$Window(2, "セリカ")
+$Fade(0, 0)
+I am Emblem Celica. I detest violence...but I will
+always fight to defend the innocent.$Wait(0)
+
+[MID_OP6_#002]
+$Window(0, "リュール", "t")
+$Anim(1, "リュール", "Smile")
+$Window(2, "リュール")
+Thank you for answering my call.$Wait(0)
+
+[MID_OP6_#003]
+$Window(1, "リュール")
+$Window(0, "アルフレッド", "t")
+$Anim(1, "アルフレッド", "Surprise")
+$Window(2, "アルフレッド")
+So...this is the Emblem that was in Firene's ring.$Wait(0)
+
+[MID_OP6_#004]
+$Window(1, "アルフレッド")
+$Window(1, "セリカ")
+$Window(0, "セリーヌ", "b")
+$Anim(1, "セリーヌ", "Smile")
+$Window(2, "セリーヌ")
+Emblem Celica. How marvelous.$Wait(2)
+
+[MID_OP6_#005]
+$Anim(1, "セリーヌ", "Angry")
+Divine One, with your blessing─and hers,
+of course─I would like to fight by Celica's side.$Wait(2)
+
+[MID_OP6_#006]
+I must protect the people of this village and
+ensure Louis and Chloé's safety.$Wait(0)
+
+[MID_OP6_#007]
+$Window(0, "リュール", "t")
+$Anim(1, "リュール", "StandBy")
+$Window(2, "リュール")
+I entrust this ring to you, Céline.$Wait(0)
+
+[MID_EV1_#001]
+$Type(1)
+$Window(0, "クロエ", "b")
+$Anim(1, "クロエ", "Angry")
+$Window(2, "クロエ")
+I won't be able to get very far with these
+archers everywhere.$Wait(0)
+
+[MID_EV1_#002]
+$Window(0, "ルイ", "t")
+$Anim(1, "ルイ", "Angry")
+$Window(2, "ルイ")
+How about this? I take care of the archers and
+you deal with the magic users.$Wait(0)
+
+[MID_EV1_#003]
+$Anim(1, "クロエ", "Relax")
+$Window(2, "クロエ")
+Good idea! While their spells will go right
+through your armor, I'm resistant to magic.$Wait(2)
+
+[MID_EV1_#004]
+So leave the mages to me. It's not so bad
+protecting each other, now is it?$Wait(0)
+
+[MID_EV1_#005]
+$Anim(1, "ルイ", "Normal")
+$Window(2, "ルイ")
+Indeed. This is a nice change of pace.$Wait(0)
+
+[MID_EV2_#001]
+$Type(1)
+$Window(0, "セリーヌ", "t")
+$Anim(1, "セリーヌ", "Smile")
+$Window(2, "セリーヌ")
+Emblem Celica, it is an honor.$Wait(2)
+
+[MID_EV2_#002]
+So it was your voice I heard on the way from
+the castle. I am glad you're here with me.$Wait(0)
+
+[MID_EV2_#003]
+$Window(0, "セリカ", "b")
+$Anim(1, "セリカ", "Relax")
+$Window(2, "セリカ")
+I feel the same, Céline. I will fight by your side
+from now on.$Wait(2)
+
+[MID_EV2_#004]
+$Anim(1, "セリカ", "Angry")
+Together, we will protect that which you
+hold dear.$Wait(0)
+
+[MID_EV2_#005]
+$Anim(1, "セリーヌ", "Angry")
+$Window(2, "セリーヌ")
+Thank you.$Wait(0)
+
+[MID_EV3_#001]
+$Type(1)
+$Window(0, "セリーヌ", "t")
+$Anim(1, "セリーヌ", "Die")
+$Window(2, "セリーヌ")
+I feel a great power within... We have united,
+haven't we?$Wait(2)
+
+[MID_EV3_#002]
+$Anim(1, "セリーヌ", "StandBy")
+My resolve is strong. I will protect my people.
+I will protect everyone!$Wait(0)
+
+[MID_EV4_#001]
+$Type(1)
+$Window(0, "リュール", "t")
+$Anim(1, "リュール", "Surprise")
+$Window(2, "リュール")
+Look at that house. The gate is wide open.$Wait(2)
+
+[MID_EV4_#002]
+$Anim(1, "リュール", "StandBy")
+We'd better warn them to lock up so the
+Corrupted don't get in.$Wait(0)
+
+[MID_EV5_#001]
+$Type(1)
+$Window(0, "M004_村人おじいさん", "t")
+$Anim(1, "M004_村人おじいさん", "Surprise")
+$Window(2, "M004_村人おじいさん")
+What's that? Monsters, here?! Gosh all!
+Thanks for letting me know!$Wait(2)
+
+[MID_EV5_#002]
+$Anim(1, "M004_村人おじいさん", "Normal")
+Take this. Might come in useful.$Wait(0)
+
+[MID_EV6_#001]
+$Type(1)
+$Window(0, "M004_村人お姉さん", "t")
+$Anim(1, "M004_村人お姉さん", "Sad")
+$Window(2, "M004_村人お姉さん")
+Thank you for warning me. Here─use this to
+bring peace to our land.$Wait(0)
+
+[MID_EV7_#001]
+$Type(1)
+$Window(0, "M004_イルシオン兵_ボス", "b")
+$Window(2, "M004_イルシオン兵_ボス")
+We're losing ground, are we? Well, that's easily
+remedied. Release the Corrupted!$Wait(0)
+
+[MID_EV8_#001]
+$Type(1)
+$Window(0, "M004_蛮族", "b")
+$Anim(1, "M004_蛮族", "Smile")
+$Window(2, "M004_蛮族")
+Ahaha! These houses are ripe for the picking.
+Time for a good, old-fashioned village pillage!$Wait(0)
+
+[MID_EV9_#001]
+$Type(1)
+$Window(0, "リュール", "t")
+$Anim(1, "リュール", "Surprise")
+$Show(0, "Tex_Event_ItemPicture_15", "picture_item_fade_in_normal")
+$Window(2, "リュール")
+The crystal... It's glowing.$Wait(0)
+
+[MID_EV9_#002]
+$Window(0, "マルス", "b")
+$Anim(1, "マルス", "Surprise")
+$Window(2, "マルス")
+$P, where did you get that?$Wait(0)
+
+[MID_EV9_#003]
+$Anim(1, "リュール", "Angry")
+$Window(2, "リュール")
+It was in the Ring Vault. Vander found it after
+the battle at Lythos Castle.$Wait(2)
+
+[MID_EV9_#004]
+Why? Do you know what this is?$Wait(0)
+
+[MID_EV9_#005]
+$Anim(1, "マルス", "Angry")
+$Window(2, "マルス")
+The Draconic Time Crystal. An artifact capable
+of reversing time itself.$Wait(2)
+
+[MID_EV9_#006]
+There is a limit to its power, but still, it could
+give us a keen advantage.$Wait(2)
+
+[MID_EV9_#007]
+$Anim(1, "リュール", "Surprise")
+$Window(2, "リュール")
+Time Crystal, huh? So it's not just a pretty piece
+of jewelry.$Wait(0)
+
+[MID_EV9_#008]
+$Anim(1, "マルス", "Relax")
+$Window(2, "マルス")
+Since we have it, I suggest we put it to use.$Wait(2)
+
+[MID_EV9_#009]
+$Anim(1, "リュール", "Angry")
+$Hide(0, "picture_item_fade_out_normal")
+Give it a try.$Wait(0)
+
+[MID_EV10_#001]
+$Type(1)
+$Window(0, "セリーヌ", "t")
+$Anim(1, "セリーヌ", "Status")
+$Window(2, "セリーヌ")
+With Celica's help, I ought to be able to reach
+Chloé and Louis more quickly.$Wait(0)
+
+[MID_EV11_#001]
+$Type(1)
+$Window(0, "セリーヌ", "t")
+$Anim(1, "セリーヌ", "Angry")
+$Window(2, "セリーヌ")
+I am resolved to fight for peace. Hold on, you
+two! I am on my way!$Wait(0)
+
+[MID_TK1_#001]
+$Type(1)
+$Window(0, "セリーヌ", "t")
+$Anim(1, "セリーヌ", "Smile")
+$Window(2, "セリーヌ")
+Chloé, I am relieved to see you're all right.$Wait(0)
+
+[MID_TK1_#002]
+$Window(0, "クロエ", "b")
+$Anim(1, "クロエ", "Smile")
+$Window(2, "クロエ")
+You too, Princess Céline!$Wait(0)
+
+[MID_TK1_#003]
+$Window(2, "セリーヌ")
+I was able to find Alfred─and the Divine
+Dragon, no less!$Wait(2)
+
+[MID_TK1_#004]
+$Anim(1, "セリーヌ", "Angry")
+After that, the Divine One summoned Emblem
+Celica from within my ring.$Wait(0)
+
+[MID_TK1_#005]
+$Anim(1, "クロエ", "Surprise")
+$Window(2, "クロエ")
+A noble dragon, summoning ancient spirits to
+save the day... That sounds just like a fairy tale!$Wait(0)
+
+[MID_TK1_#006]
+$Window(2, "セリーヌ")
+It does. Now that I have this power, let's give
+this story a happy ending, shall we?$Wait(0)
+
+[MID_TK1_#007]
+$Anim(1, "クロエ", "Relax")
+$Window(2, "クロエ")
+Let's do it.$Wait(0)
+
+[MID_TK2_#001]
+$Type(1)
+$Window(0, "セリーヌ", "t")
+$Anim(1, "セリーヌ", "Smile")
+$Window(2, "セリーヌ")
+Louis, thank goodness!$Wait(0)
+
+[MID_TK2_#002]
+$Window(0, "ルイ", "b")
+$Anim(1, "ルイ", "Smile")
+$Window(2, "ルイ")
+Princess Céline! How relieved I am to see
+you unharmed...$Wait(2)
+
+[MID_TK2_#003]
+$Anim(1, "ルイ", "Surprise")
+Hm? You seem...different.$Wait(0)
+
+[MID_TK2_#004]
+$Window(2, "セリーヌ")
+The Divine Dragon brought Emblem Celica forth
+from my ring. I am imbued with her strength.$Wait(0)
+
+[MID_TK2_#005]
+$Window(2, "ルイ")
+Pardon? The Divine Dragon is here?$Wait(0)
+
+[MID_TK2_#006]
+$Anim(1, "セリーヌ", "Angry")
+$Window(2, "セリーヌ")
+Indeed. I will explain everything later. For now,
+let us restore order here.$Wait(2)
+
+[MID_TK2_#007]
+I promise I will never leave you behind again.
+Come─let us fight together.$Wait(0)
+
+[MID_TK2_#008]
+$Anim(1, "ルイ", "Smile")
+$Window(2, "ルイ")
+As you wish. Princess Céline and Emblem
+Celica... What a pair.$Wait(0)
+
+[MID_BT1_#001]
+$Type(1)
+$Window(0, "M004_イルシオン兵_ボス", "b")
+$Window(2, "M004_イルシオン兵_ボス")
+Soon I'll be a legend... The man who captured
+the princess of Firene!$Wait(0)
+
+[MID_BT2_#001]
+$Type(1)
+$Window(0, "M004_イルシオン兵_ボス", "b")
+$Anim(1, "M004_イルシオン兵_ボス", "Pain")
+$Window(2, "M004_イルシオン兵_ボス")
+I would have won, you know...if they'd given
+me real soldiers...$Wait(0)
+
+[MID_MOVIE1_#001]
+$Window(2, "リュール")
+Huh?$Wait(0)
+
+[MID_MOVIE1_#002]
+$Window(2, "ヴェイル")
+There's no need to be afraid. It's gone.$Wait(0)
+
+[MID_ED1_#001]
+$Type(2)
+$Window(0, "リュール", "2")
+$Window(0, "ヴェイル", "1")
+$Alias("ヴェイル", "MPID_Unknown")
+$Window(2, "リュール")
+You saved my life. Thank you.$Wait(0)
+
+[MID_ED1_#002]
+$Window(2, "ヴェイル")
+It was nothing, really! I only did what anyone
+else would do.$Wait(0)
+
+[MID_ED1_#003]
+$Window(2, "リュール")
+Are you here by yourself?$Wait(0)
+
+[MID_ED1_#004]
+$Window(2, "ヴェイル")
+I am. I saw the fighting and thought I could help.$Wait(0)
+
+[MID_ED1_#005]
+$Window(2, "リュール")
+You're braver than I am. I can't stand
+the Corrupted.$Wait(2)
+
+[MID_ED1_#006]
+I was so startled I couldn't think. You really did
+save my life.$Wait(0)
+
+[MID_ED1_#007]
+$Window(2, "ヴェイル")
+I see...$Wait(0)
+
+[MID_ED1_#008]
+$Window(2, "リュール")
+Oh, I haven't introduced myself yet. I'm the
+Divine Dragon $P.$Wait(2)
+
+[MID_ED1_#009]
+$Window(2, "ヴェイル")
+What a lovely name. I'm Veyle.$Wait(0)
+
+[MID_ED1_#010]
+$Window(2, "リュール")
+Veyle...$Wait(0)
+
+[MID_ED1_#011]
+$Window(0, "マルス", "4")
+$Window(2, "マルス")
+Might I interrupt?$Wait(0)
+
+[MID_ED1_#012]
+$Window(2, "リュール")
+What is it?$Wait(0)
+
+[MID_ED1_#013]
+$Window(2, "マルス")
+Even with the Corrupted gone, it may not be
+safe for her out here.$Wait(2)
+
+[MID_ED1_#014]
+Perhaps we should escort her home or to
+an inn.$Wait(0)
+
+[MID_ED1_#015]
+$Window(1, "ヴェイル")
+$Window(2, "リュール")
+That's a good idea.$Wait(2)
+
+[MID_ED1_#016]
+Hey, Veyle, do you live around here?$Wait(2)
+
+[MID_ED1_#017]
+Huh?$Wait(2)
+
+[MID_ED1_#018]
+She's gone...$Wait(0)
+
+[MID_ED2_#001]
+$Type(2)
+$Window(0, "リュール", "2")
+$Window(0, "セリーヌ", "1")
+$Window(2, "セリーヌ")
+Divine One!$Wait(0)
+
+[MID_ED2_#002]
+$Window(2, "リュール")
+Céline.$Wait(2)
+
+[MID_ED2_#003]
+Did you see a girl pass this way? Small with
+long hair? Barefoot?$Wait(0)
+
+[MID_ED2_#004]
+$Window(2, "セリーヌ")
+No, I'm afraid I didn't see anyone matching
+that description.$Wait(0)
+
+[MID_ED2_#005]
+$Window(2, "リュール")
+OK, thanks. Did you need something?$Wait(0)
+
+[MID_ED2_#006]
+$Window(2, "セリーヌ")
+I wanted to thank you.$Wait(2)
+
+[MID_ED2_#007]
+Alfred told me that you accepted Firene's
+request for aid.$Wait(2)
+
+[MID_ED2_#008]
+And your help in the battle was the difference
+between victory and defeat. Thank you, truly.$Wait(0)
+
+[MID_ED2_#009]
+$Window(2, "リュール")
+Don't mention it.$Wait(2)
+
+[MID_ED2_#010]
+Alfred and I are friends. I was happy to help.$Wait(0)
+
+[MID_ED2_#011]
+$Window(2, "セリーヌ")
+Friends? He said that? Imagine speaking so
+casually with the Divine Dragon...$Wait(2)
+
+[MID_ED2_#012]
+Please, allow me to apologize on his behalf.$Wait(0)
+
+[MID_ED2_#013]
+$Window(2, "リュール")
+There's no need to put me on a pedestal.$Wait(2)
+
+[MID_ED2_#014]
+I just woke up, and the world is new to me.
+I make mistakes like anyone.$Wait(0)
+
+[MID_ED2_#015]
+$Window(2, "セリーヌ")
+Is that so? I thought surely the Divine Dragon
+would be an all-seeing, all-powerful being.$Wait(2)
+
+[MID_ED2_#016]
+But here I find that you are rather more...human
+than I expected. Perhaps we can be friends.$Wait(0)
+
+[MID_ED2_#017]
+$Window(2, "リュール")
+Then what do you say, Céline? Friends?$Wait(0)
+
+[MID_ED2_#018]
+$Window(2, "セリーヌ")
+I would be honored.$Wait(0)
+
+[MID_ED3_#001]
+$Type(2)
+$Window(0, "武器屋", "1")
+$Window(0, "道具屋", "3")
+$Window(2, "武器屋")
+Hey, folks! Mind if we bend your ear a minute?$Wait(0)
+
+[MID_ED3_#002]
+$Window(0, "リュール", "2")
+$Window(0, "ヴァンドレ", "4")
+$Window(2, "リュール")
+Hm?$Wait(0)
+
+[MID_ED3_#003]
+$Window(2, "武器屋")
+Name's Durthon. I'm an armorer. And this
+here's Anisse, purveyor of goods.$Wait(2)
+
+[MID_ED3_#004]
+We saw you tradin' thumps with those things.
+Figured you might be in the market for supplies.$Wait(0)
+
+[MID_ED3_#005]
+$Window(2, "道具屋")
+Yes. If you need, we'd be happy to provide you
+with quality weapons and items.$Wait(2)
+
+[MID_ED3_#006]
+Anything to defeat those creatures. They pose
+a terrible threat to traveling merchants like us.$Wait(0)
+
+[MID_ED3_#007]
+$Window(2, "リュール")
+How would you feel about moving to our
+base? You can sell your wares from there.$Wait(0)
+
+[MID_ED3_#008]
+$Window(2, "ヴァンドレ")
+Ahem, Divine One...$Wait(0)
+
+[MID_ED3_#009]
+$Window(2, "リュール")
+What? We don't have any facilities. These two
+could be a good addition.$Wait(0)
+
+[MID_ED3_#010]
+$Window(2, "武器屋")
+You're gonna let us open shops at your base?$Wait(0)
+
+[MID_ED3_#011]
+$Window(2, "リュール")
+If you'd like to. We'll need plenty of weapons
+and items from here on out.$Wait(2)
+
+[MID_ED3_#012]
+It's a haven. You won't find any creatures there.$Wait(0)
+
+[MID_ED3_#013]
+$Window(2, "武器屋")
+You got yourself a bargain! Can't wait to
+do business together.$Wait(0)
+
+[MID_ED3_#014]
+$Window(2, "道具屋")
+Thank you for this. I will do my utmost to
+ensure you receive the finest items.$Wait(0)
+

@@ -1,0 +1,182 @@
+Include("Common")
+-  g_pid_lueur = "PID_リュール"
+
+g_map_width				= 23
+g_map_height			= 20
+
+-- -----------------------------------
+
+function Startup()
+	
+	Log("[Startup] F001: Set Allow FX")
+	
+	-- void App.ScriptMap$$WinRuleSetDestroyBoss
+	-- WinRuleSetDestroyBoss( true )	-- 敵将撃破
+	WinRuleSetEnemyNumberLessThanOrEqualTo(-1)
+	WinRuleSetMID( "MID_RULE_F003_WIN" )
+	
+	変数登録()
+	イベント登録()
+
+	if VariableIsExist("G_所持_AllowFX_c") then
+		VariableSet("G_所持_AllowFX_c", 1)
+	else
+		VariableEntry("G_所持_AllowFX_c", 1)
+	end
+
+end
+
+function Cleanup()
+	
+	Log("Cleanup")
+	
+end
+
+function 変数登録()
+
+end
+
+function イベント登録()
+
+end
+
+-- -----------------------------------
+
+function Opening()
+	
+	Log("Opening")
+	
+	-- PuppetDemo("M004", "MID_OP1")
+	
+end
+
+function MapOpening()
+	
+	Log("MapOpening")
+
+	CursorSetPos(4,5)
+	CursorSetDistanceMode(CURSOR_DISTANCE_NEAR)
+	MapCameraWait()
+	FadeIn(FADE_NORMAL)
+	WaitTime(0.1)
+
+end
+
+-- ---------------------------------------------------------
+
+function 進撃開始直後イベント()
+end
+
+function セリーヌ合流とセリカ顕現()
+	
+end
+
+function 味方がセリーヌの方を向く()
+
+end
+
+function クロエとルイの会話()
+
+end
+
+-- ---------------------------------------------------------
+
+function condition_チュートリアル_訪問()
+	return false
+end
+
+function チュートリアル_訪問()
+
+end
+
+-- ---------------------------------------------------------
+
+function condition_ピックアップ_セリーヌ()
+	return false
+end
+
+function ピックアップ_セリーヌ()
+
+end
+
+-- ---------------------------------------------------------
+
+function エンゲージ後に再生()
+end
+
+-- ---------------------------------------------------------
+
+function condition_チュートリアル_ワープライナ()
+	return false
+end
+
+function condition_救助可能()
+	return false
+end
+
+function condition_救助距離( x_celine, z_celine, x_enemy, z_enemy, pid )
+	return false
+end
+
+function condition_ワープ攻撃可能( x_celine, z_celine, x_enemy, z_enemy )
+	return false
+end
+
+function チュートリアル_ワープライナ()
+end
+
+-- ---------------------------------------------------------
+
+function 青軍２ターン直前()
+
+end
+
+-- ---------------------------------------------------------
+
+function 民家１訪問イベント()
+
+end
+
+-- ---------------------------------------------------------
+
+function 民家２訪問イベント()
+
+end
+
+-- ---------------------------------------------------------
+
+function 増援４ターン目()
+
+end
+
+-- ---------------------------------------------------------
+
+function 増援５ターン目()
+
+end
+
+-- ---------------------------------------------------------
+
+function 増援７ターン目()
+
+end
+
+-- ---------------------------------------------------------
+
+function ボス側近_必殺調整スキル変更()
+
+end
+
+-- ---------------------------------------------------------
+
+function MapEnding()
+	Log("MapEnding")
+end
+
+function Ending()
+	Log("Ending")
+end
+
+function GameOver()
+	Log("GameOver")
+end

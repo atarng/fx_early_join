@@ -1,0 +1,1002 @@
+[MID_OP1_#001]
+$Type(2)
+$Window(0, "アルフレッド", "1")
+$Window(0, "リュール", "2")
+$Window(2, "アルフレッド")
+Almost there. Just a little farther north and we'll
+be at the shrine.$Wait(0)
+
+[MID_OP1_#002]
+$Window(2, "リュール")
+The landscape's gotten rockier.$Wait(0)
+
+[MID_OP1_#003]
+$Window(2, "アルフレッド")
+We're near Brodia. It's all mountains up there.$Wait(2)
+
+[MID_OP1_#004]
+$Window(2, "リュール")
+I'm seeing fewer villages as well. Makes this a
+good place to hide an Emblem Ring, I suppose.$Wait(0)
+
+[MID_OP1_#005]
+$Window(2, "アルフレッド")
+Yeah. The closer you are to the Brodian border,
+the colder and quieter it gets.$Wait(2)
+
+[MID_OP1_#006]
+Look. Not a soul in sight.$Wait(0)
+
+[MID_OP1_#007]
+$Window(2, "リュール")
+You're right. There's no one around...$Wait(2)
+
+[MID_OP1_#008]
+Except her.$Wait(0)
+
+[MID_OP1_#009]
+$Window(2, "アルフレッド")
+Oh!$Wait(0)
+
+[MID_OP1_#010]
+$Window(1, "リュール")
+$Window(1, "アルフレッド")
+$Window(0, "ユナカ", "3")
+$Alias("ユナカ", "MPID_Unknown")
+$Window(2, "ユナカ")
+Take a little look around... Wait for it...$Wait(0)
+
+[MID_OP1_#011]
+$Window(1, "ユナカ")
+$Window(0, "アルフレッド", "4")
+$Window(0, "リュール", "2")
+$Window(2, "アルフレッド")
+I wonder what she's doing here.$Wait(0)
+
+[MID_OP1_#012]
+$Window(1, "リュール")
+$Window(1, "アルフレッド")
+$Window(0, "ユナカ", "3")
+$Window(2, "ユナカ")
+Ugh... Ugh...$Wait(0)
+
+[MID_OP1_#013]
+$Window(1, "ユナカ")
+$Window(0, "アルフレッド", "4")
+$Window(0, "リュール", "2")
+$Window(2, "リュール")
+She's crying.$Wait(0)
+
+[MID_OP1_#014]
+$Window(2, "アルフレッド")
+Well, doesn't that break the heart?$Wait(2)
+
+[MID_OP1_#015]
+I'd better help. I am her prince, after all. I won't
+stand by when my people are suffering.$Wait(0)
+
+[MID_OP1_#016]
+$Window(1, "アルフレッド")
+$Window(2, "リュール")
+Alfred, wait!$Wait(0)
+
+[MID_OP1_#017]
+$Window(1, "リュール")
+$Window(0, "ユナカ", "1")
+$Window(2, "ユナカ")
+Oh, what a scrape I'm in...$Wait(0)
+
+[MID_OP1_#018]
+$Window(0, "アルフレッド", "4")
+$Window(2, "アルフレッド")
+Hey there!$Wait(0)
+
+[MID_OP1_#019]
+$Window(2, "ユナカ")
+Huh?$Wait(0)
+
+[MID_OP1_#020]
+$Window(2, "アルフレッド")
+What's the matter? Something I can help with?$Wait(0)
+
+[MID_OP1_#021]
+$Window(2, "ユナカ")
+...$Wait(2)
+
+[MID_OP1_#022]
+Zuh... Zuh...$Wait(0)
+
+[MID_OP1_#023]
+$Window(0, "リュール", "2")
+$Window(2, "リュール")
+I knew we'd startle you. Sorry for popping up
+out of nowhere and─$Wait(0)
+
+[MID_OP1_#024]
+$Window(2, "ユナカ")
+Zappy! You came just in time! I'm saved!$Wait(0)
+
+[MID_OP1_#025]
+$Window(2, "リュール")
+Uh...$Wait(0)
+
+[MID_OP1_#026]
+$Window(2, "ユナカ")
+I lost something earlier and there was nobody
+around to help, so I got real stressed out.$Wait(2)
+
+[MID_OP1_#027]
+$Alias("ユナカ", "MPID_Yunaka")
+Oh, right, I skipped over the niceties. You can
+call me Yunaka. Hiya papaya!$Wait(0)
+
+[MID_OP1_#028]
+$Window(2, "リュール")
+Hiya...papaya?$Wait(0)
+
+[MID_OP1_#029]
+$Window(2, "アルフレッド")
+Huh! I've never heard that one before.$Wait(2)
+
+[MID_OP1_#030]
+Anyway, what did you lose, Yunaka?$Wait(0)
+
+[MID_OP1_#031]
+$Window(2, "ユナカ")
+It's a little round ring. Kind of shiny with a hole
+in the middle?$Wait(2)
+
+[MID_OP1_#032]
+Oh, and it talks, for some reason.$Wait(0)
+
+[MID_OP1_#033]
+$Window(2, "リュール")
+Come again?$Wait(0)
+
+[MID_OP1_#034]
+$Window(2, "ユナカ")
+Yeah, I figured you wouldn't believe me.$Wait(0)
+
+[MID_OP1_#035]
+$Window(2, "リュール")
+I believe you. It might be an Emblem Ring.$Wait(0)
+
+[MID_OP1_#036]
+$Window(2, "アルフレッド")
+Please, go on. What did it say?$Wait(0)
+
+[MID_OP1_#037]
+$Window(2, "ユナカ")
+Hm... If I remember right, it asked me to take it
+to the Divine Dragon.$Wait(0)
+
+[MID_OP1_#038]
+$Window(2, "リュール")
+To me?$Wait(0)
+
+[MID_OP1_#039]
+$Window(2, "ユナカ")
+Is that─ Did you─ Are you saying you're the
+Divine Dragon?$Wait(0)
+
+[MID_OP1_#040]
+$Window(2, "リュール")
+Yes, I am. I'm sorry I didn't mention it sooner.
+I'm the Divine Dragon $P.$Wait(0)
+
+[MID_OP1_#041]
+$Window(2, "アルフレッド")
+And now that we're doing introductions,
+I'm Alfred, the prince of Firene.$Wait(0)
+
+[MID_OP1_#042]
+$Window(2, "ユナカ")
+Holy brocc-oly! Why didn't you lead with that?!$Wait(2)
+
+[MID_OP1_#043]
+I think I just had a heart attack... Nope, false
+alarm. Whew.$Wait(0)
+
+[MID_OP1_#044]
+$Window(2, "アルフレッド")
+I'm so sorry. I never meant to impact
+your health.$Wait(0)
+
+[MID_OP1_#045]
+$Window(2, "リュール")
+Yunaka, how did you find the ring?$Wait(0)
+
+[MID_OP1_#046]
+$Window(2, "ユナカ")
+I was walking along the border, minding my
+own business, when I heard a woman's voice.$Wait(2)
+
+[MID_OP1_#047]
+"Help me... I'm right here... I'm by your foot."$Wait(2)
+
+[MID_OP1_#048]
+$Window(2, "リュール")
+Huh. You're quite the performer.$Wait(0)
+
+[MID_OP1_#049]
+$Window(2, "ユナカ")
+Anyway, I picked up the ring and she said,
+"Take me to the Divine Dragon."$Wait(2)
+
+[MID_OP1_#050]
+But at that point, I had no idea where the Divine
+Dragon was! So I told her I couldn't help.$Wait(2)
+
+[MID_OP1_#051]
+She knew the way, though. Told me to start
+heading for the capital of Firene.$Wait(0)
+
+[MID_OP1_#052]
+$Window(2, "アルフレッド")
+That's good advice. The quickest way to get to
+Lythos is through the capital.$Wait(0)
+
+[MID_OP1_#053]
+$Window(2, "ユナカ")
+But on the way, I was attacked by bandits and
+ran off full speed...and now the ring's gone.$Wait(2)
+
+[MID_OP1_#054]
+I must have dropped it somewhere! Woe is me!
+Sniffle, sniffle.$Wait(2)
+
+[MID_OP1_#055]
+But now that you're here, you're gonna help me
+find it! Right? Right?$Wait(0)
+
+[MID_OP1_#056]
+$Window(2, "リュール")
+After hearing her story, this definitely sounds
+like an Emblem Ring.$Wait(2)
+
+[MID_OP1_#057]
+Probably the Ring of the Dawn Maiden. But that
+means someone took it from the shrine.$Wait(0)
+
+[MID_OP1_#058]
+$Window(2, "アルフレッド")
+Or it could be another Emblem Ring. We'll just
+have to find it and see for ourselves.$Wait(0)
+
+[MID_OP1_#059]
+$Window(2, "リュール")
+All right, Yunaka. We'll help you.$Wait(0)
+
+[MID_OP1_#060]
+$Window(2, "ユナカ")
+Golly, that's great news! She'll be so happy if
+you're the one who finds her!$Wait(0)
+
+[MID_OP1_#061]
+$Window(2, "リュール")
+Let's start by retracing your steps.$Wait(0)
+
+[MID_OP2_#001]
+$Type(2)
+$Window(0, "アルフレッド", "1")
+$Window(0, "リュール", "2")
+$Window(0, "ユナカ", "3")
+$Window(2, "リュール")
+No sign of the ring so far...$Wait(0)
+
+[MID_OP2_#002]
+$Window(2, "ユナカ")
+Maybe somebody got to it before we did.$Wait(0)
+
+[MID_OP2_#003]
+$Window(2, "アルフレッド")
+Yeah, everyone's combing the area. If it was
+lying around, we would have found it by now.$Wait(0)
+
+[MID_OP2_#004]
+$Window(2, "リュール")
+You're sure you didn't lose it before the
+bandits attacked?$Wait(0)
+
+[MID_OP2_#005]
+$Window(2, "ユナカ")
+I had it on me when I passed through that
+ghost town over there...$Wait(2)
+
+[MID_OP2_#006]
+Huh?!$Wait(0)
+
+[MID_OP2_#007]
+$Window(2, "リュール")
+What is it?$Wait(0)
+
+[MID_OP2_#008]
+$Window(2, "ユナカ")
+It looks like the town's overrun with bandits.$Wait(0)
+
+[MID_OP2_#009]
+$Window(2, "リュール")
+What? How can you tell?$Wait(0)
+
+[MID_OP2_#010]
+$Window(2, "ユナカ")
+I'll bet these are the same chumps who
+ambushed me earlier.$Wait(0)
+
+[MID_OP2_#011]
+$Window(2, "リュール")
+Let's take a closer look.$Wait(0)
+
+[MID_OP3_#001]
+$Type(2)
+$Window(0, "アルフレッド", "1")
+$Window(0, "リュール", "2")
+$Window(0, "ユナカ", "3")
+$Window(2, "アルフレッド")
+They've taken over the town.$Wait(0)
+
+[MID_OP3_#002]
+$Window(2, "ユナカ")
+These are the bandits I ran into earlier, no doubt
+about it.$Wait(2)
+
+[MID_OP3_#003]
+And that means one of them's got...$Wait(2)
+
+[MID_OP3_#004]
+Aha. Right there.$Wait(0)
+
+[MID_OP3_#005]
+$Window(2, "リュール")
+You see it?$Wait(0)
+
+[MID_OP3_#006]
+$Window(2, "ユナカ")
+Yeah. A burly guy with something glinting in
+his hand. That's got to be our missing ring.$Wait(0)
+
+[MID_OP3_#007]
+$Window(2, "アルフレッド")
+What do you think, Divine One? Is it an
+Emblem Ring?$Wait(0)
+
+[MID_OP3_#008]
+$Window(2, "リュール")
+Hmm... He's too far. I really can't say.$Wait(2)
+
+[MID_OP3_#009]
+You must have great eyesight, Yunaka.$Wait(0)
+
+[MID_OP3_#010]
+$Window(2, "ユナカ")
+Yeah, I have a killer's eyes.$Wait(0)
+
+[MID_OP3_#011]
+$Window(2, "リュール")
+What was that?$Wait(0)
+
+[MID_OP3_#012]
+$Window(2, "ユナカ")
+Killer eyes! I've got killer eyes! You know,
+they're great at seeing stuff!$Wait(2)
+
+[MID_OP3_#013]
+If you ever need something looked at real good,
+I'm your gal! Hehehe...$Wait(2)
+
+[MID_OP3_#014]
+Anyway! What's the plan? Now we've got two
+problems that need solving.$Wait(0)
+
+[MID_OP3_#015]
+$Window(2, "リュール")
+A stolen ring, and a town full of bandits.$Wait(0)
+
+[MID_OP3_#016]
+$Window(2, "アルフレッド")
+The ring's our first priority, but we can't leave
+them unchecked.$Wait(0)
+
+[MID_OP3_#017]
+$Window(2, "ユナカ")
+We'll only attract attention if we all charge in
+at once. I say we split up.$Wait(2)
+
+[MID_OP3_#018]
+You know, send in a small group to recover
+the ring. Nice and stealthy.$Wait(0)
+
+[MID_OP3_#019]
+$Window(2, "リュール")
+All right.$Wait(0)
+
+[MID_OP3_#020]
+$Window(2, "ユナカ")
+OK, then! C'mon, Divine One, you're with me!$Wait(0)
+
+[MID_EV1_#001]
+$Type(1)
+$Window(0, "ユナカ", "b")
+$Anim(1, "ユナカ", "Smile")
+$Window(2, "ユナカ")
+Okey dokes. If we go through here, I bet we can
+sneak up on that guy with the ring.$Wait(0)
+
+[MID_EV1_#002]
+$Window(0, "リュール", "t")
+$Anim(1, "リュール", "Smile")
+$Window(2, "リュール")
+Slipping through a side passage. Smart
+thinking, Yunaka.$Wait(0)
+
+[MID_EV2_#001]
+$Type(1)
+$Window(0, "ユナカ", "b")
+$Anim(1, "ユナカ", "Angry")
+$Window(2, "ユナカ")
+There he is! Let's take him by surprise!$Wait(0)
+
+[MID_EV2_#002]
+$Window(0, "リュール", "t")
+$Anim(1, "リュール", "Angry")
+$Window(2, "リュール")
+Good idea.$Wait(0)
+
+[MID_EV3_#001]
+$Type(1)
+$Window(0, "ミカヤ", "t")
+$Alias("ミカヤ", "MPID_Unknown")
+$Window(7, "ミカヤ")
+$Window(2, "ミカヤ")
+Please, take me to the Divine Dragon.$Wait(0)
+
+[MID_EV3_#002]
+$Show(0, "Tex_Event_ItemPicture_05", "picture_item_fade_in_normal")
+$Window(0, "M006_蛮族_指輪持ち", "b")
+$Anim(1, "M006_蛮族_指輪持ち", "Smile")
+$Window(2, "M006_蛮族_指輪持ち")
+Hahaha, this looks pretty pricey.$Wait(2)
+
+[MID_EV3_#003]
+This'll net me a nice lump of gold. The boss
+doesn't need to know about it... Hahaha!$Wait(0)
+
+[MID_EV3_#004]
+$Hide(0, "picture_item_fade_out_normal")
+$Window(2, "ミカヤ")
+Oh, dear. You can't even hear me, can you?$Wait(0)
+
+[MID_EV4_#001]
+$Type(1)
+$Window(0, "ユナカ", "b")
+$Anim(1, "ユナカ", "Angry")
+$Window(2, "ユナカ")
+I hear her! That's the voice from before!$Wait(0)
+
+[MID_EV4_#002]
+$Window(0, "リュール", "t")
+$Anim(1, "リュール", "Angry")
+$Window(2, "リュール")
+That's definitely an Emblem Ring. Yunaka, will
+you help me get it back?$Wait(0)
+
+[MID_EV4_#003]
+$Anim(1, "ユナカ", "Smile")
+$Window(2, "ユナカ")
+Of course, you weirdo! That's why we're here.$Wait(0)
+
+[MID_EV4_#004]
+$Window(2, "リュール")
+Right. Well, thank you. You know...$Wait(2)
+
+[MID_EV4_#005]
+$Anim(1, "リュール", "Smile")
+Now that I hear her, your impression was
+incredibly accurate.$Wait(0)
+
+[MID_EV4_#006]
+$Anim(1, "ユナカ", "Status")
+$Window(2, "ユナカ")
+Hehe, stop! You're gonna make me blush!$Wait(0)
+
+[MID_EV5_#001]
+$Type(1)
+$Window(0, "リュール", "t")
+$Anim(1, "リュール", "Pain")
+$Window(2, "リュール")
+It's pitch black out here.$Wait(2)
+
+[MID_EV5_#002]
+$Anim(1, "リュール", "Angry")
+How can we fight them if we can't even
+see them?$Wait(0)
+
+[MID_EV5_#003]
+$Window(0, "ユナカ", "b")
+$Anim(1, "ユナカ", "Status")
+$Window(2, "ユナカ")
+Don't worry, Divine One! That's what I'm
+here for!$Wait(0)
+
+[MID_EV5_2_#001]
+$Type(1)
+$Window(0, "ユナカ", "b")
+$Anim(1, "ユナカ", "Smile")
+$Window(2, "ユナカ")
+My eyesight's so sharp I can spot baddies even
+when it's dark or foggy.$Wait(2)
+
+[MID_EV5_2_#002]
+$Anim(1, "ユナカ", "Relax")
+Till you get your hands on a torch, at least.
+Then you'll see as well as I can.$Wait(0)
+
+[MID_EV6_#001]
+$Type(1)
+$Window(0, "リュール", "t")
+$Anim(1, "リュール", "Angry")
+$Window(2, "リュール")
+We got the ring! Heal us, Emblem of Dawn!
+$Wait(3, 2500)
+$Show(0, "Tex_Event_Effect_White", "picture_fade_in_slow")
+$Wait(0)
+$Fade(1, 0, 52481)
+
+[MID_EV7_#001]
+$Type(1)
+$Window(0, "ミカヤ", "t")
+$Anim(1, "ミカヤ", "Relax")
+$Window(2, "ミカヤ")
+$Fade(0, 0)
+I am Emblem Micaiah. I sense the future
+shifting... Now victory lies ahead.$Wait(0)
+
+[MID_EV8_#001]
+$Type(1)
+$Window(0, "リュール", "t")
+$Anim(1, "リュール", "Smile")
+$Window(2, "リュール")
+Ah, so it is the Ring of the Dawn Maiden.
+Yunaka, I entrust this ring to you.$Wait(0)
+
+[MID_EV8_#002]
+$Window(0, "ユナカ", "b")
+$Anim(1, "ユナカ", "Surprise")
+$Window(2, "ユナカ")
+Me?! But I...$Wait(0)
+
+[MID_EV8_#003]
+$Anim(1, "リュール", "Angry")
+$Window(2, "リュール")
+She belongs with you. All I ask is that in return,
+you help us defeat these bandits.$Wait(2)
+
+[MID_EV8_#004]
+$Anim(1, "リュール", "Normal")
+Will you join with Emblem Micaiah?$Wait(0)
+
+[MID_EV8_#005]
+$Anim(1, "ユナカ", "Angry")
+$Window(2, "ユナカ")
+Yeah, OK! I won't let you down!$Wait(0)
+
+[MID_EV9_#001]
+$Type(1)
+$Window(0, "M006_ボス", "b")
+$Anim(1, "M006_ボス", "Angry")
+$Window(2, "M006_ボス")
+Looks like we got us some uninvited guests.
+Snuff the lights, you lot!$Wait(0)
+
+[MID_EV9_#002]
+$Window(0, "M006_マージ", "t")
+$Anim(1, "M006_マージ", "Angry")
+$Window(2, "M006_マージ")
+You got it!$Wait(0)
+
+[MID_EV10_#001]
+$Type(1)
+$Window(0, "ミカヤ", "t")
+$Anim(1, "ミカヤ", "Angry")
+$Window(2, "ミカヤ")
+Yunaka, let me show you how to use staves.$Wait(0)
+
+[MID_EV11_#001]
+$Type(1)
+$Window(0, "ミカヤ", "t")
+$Anim(1, "ミカヤ", "Relax")
+$Window(2, "ミカヤ")
+With my magic, you may illuminate even the
+darkest of places.$Wait(0)
+
+[MID_EV12_#001]
+$Type(1)
+$Window(0, "ユナカ", "t")
+$Anim(1, "ユナカ", "Angry")
+$Window(2, "ユナカ")
+Looks like our cover's blown. They're snuffing
+the torches.$Wait(2)
+
+[MID_EV12_#002]
+Don't sweat it. We can relight them as we go.$Wait(0)
+
+[MID_BT1_#001]
+$Type(1)
+$Window(0, "M006_蛮族_指輪持ち", "b")
+$Anim(1, "M006_蛮族_指輪持ち", "Angry")
+$Window(2, "M006_蛮族_指輪持ち")
+AAH! Where did you come from?!$Wait(0)
+
+[MID_BT2_#001]
+$Type(1)
+$Window(0, "M006_蛮族_指輪持ち", "b")
+$Anim(1, "M006_蛮族_指輪持ち", "Pain")
+$Window(2, "M006_蛮族_指輪持ち")
+But...my treasure...$Wait(0)
+
+[MID_BT3_#001]
+$Type(1)
+$Window(0, "M006_ボス", "b")
+$Anim(1, "M006_ボス", "StandBy")
+$Window(2, "M006_ボス")
+A little late to be saving the day. We killed off
+the villagers ages ago! Hahaha!$Wait(0)
+
+[MID_BT4_#001]
+$Type(1)
+$Window(0, "M006_ボス", "b")
+$Anim(1, "M006_ボス", "Pain")
+$Window(2, "M006_ボス")
+You think this is...justice, huh? Haha...hah...$Wait(0)
+
+[MID_ED1_#001]
+$Type(2)
+$Window(0, "アルフレッド", "1")
+$Window(0, "リュール", "2")
+$Window(0, "ユナカ", "3")
+$Window(2, "リュール")
+That's the last of the bandits. You've been a
+huge help, Yunaka.$Wait(2)
+
+[MID_ED1_#002]
+If not for you, we'd be scratching our heads in
+an empty shrine right about now.$Wait(2)
+
+[MID_ED1_#003]
+I can't thank you enough.$Wait(0)
+
+[MID_ED1_#004]
+$Window(2, "ユナカ")
+It was nothing, really...$Wait(0)
+
+[MID_ED1_#005]
+$Window(2, "アルフレッド")
+I wonder who took it from the shrine in the
+first place.$Wait(0)
+
+[MID_ED1_#006]
+$Window(2, "リュール")
+It must have been those bandits, right?$Wait(0)
+
+[MID_ED1_#007]
+$Window(2, "ユナカ")
+Uh... Well...$Wait(0)
+
+[MID_ED1_#008]
+$Window(2, "リュール")
+What's the matter?$Wait(0)
+
+[MID_ED1_#009]
+$Window(2, "ユナカ")
+I have a...uh...confession. The thing is...$Wait(2)
+
+[MID_ED1_#010]
+I didn't find the ring. I stole it.$Wait(0)
+
+[MID_ED1_#011]
+$Window(2, "リュール")
+Huh?$Wait(0)
+
+[MID_ED1_#012]
+$Window(2, "ユナカ")
+I was strapped for money, and when I saw the
+shrine, I figured it might have valuables.$Wait(2)
+
+[MID_ED1_#013]
+I went inside, heard Micaiah's voice, and pow,
+there's the ring staring right at me.$Wait(2)
+
+[MID_ED1_#014]
+I was just looking to make a quick bundle
+of dough! I'm sorry.$Wait(0)
+
+[MID_ED1_#015]
+$Window(2, "リュール")
+I see.$Wait(0)
+
+[MID_ED1_#016]
+$Window(2, "ユナカ")
+When I learned that you two were royalty,
+I panicked and kinda, well...lied.$Wait(2)
+
+[MID_ED1_#017]
+Really, I'm no different from those bandits.
+I'll accept whatever punishment you give me.$Wait(0)
+
+[MID_ED1_#018]
+$Window(2, "アルフレッド")
+Hold on. You were planning to sell the ring?$Wait(0)
+
+[MID_ED1_#019]
+$Window(2, "ユナカ")
+Yeah...$Wait(0)
+
+[MID_ED1_#020]
+$Window(2, "アルフレッド")
+Well then, why didn't you?$Wait(2)
+
+[MID_ED1_#021]
+You could have run for the hills as soon as the
+Divine Dragon handed it to you.$Wait(2)
+
+[MID_ED1_#022]
+We're useless in the dark. Would've been easy
+to give us the slip.$Wait(2)
+
+[MID_ED1_#023]
+But instead, you stuck around and risked your
+neck for us. Why?$Wait(0)
+
+[MID_ED1_#024]
+$Window(2, "ユナカ")
+Well...because of Micaiah.$Wait(2)
+
+[MID_ED1_#025]
+When she started talking to me, I got this
+feeling that I just couldn't shake.$Wait(2)
+
+[MID_ED1_#026]
+I felt like...like I had to help her get to the
+Divine Dragon.$Wait(0)
+
+[MID_ED1_#027]
+$Window(0, "ミカヤ", "4")
+$Window(2, "ミカヤ")
+Yunaka has shown me nothing but kindness.
+Fighting by her side, I saw a bright path ahead.$Wait(2)
+
+[MID_ED1_#028]
+When I sensed Sombron's return, I called out in
+the dark. It was she who answered.$Wait(2)
+
+[MID_ED1_#029]
+I am to blame for entangling her in all this.
+Yunaka has done nothing wrong.$Wait(0)
+
+[MID_ED1_#030]
+$Window(1, "ミカヤ")
+$Window(2, "アルフレッド")
+I hear you. But she did lie to us.$Wait(2)
+
+[MID_ED1_#031]
+As prince, I'm not supposed to let that go
+without some sort of punishment.$Wait(0)
+
+[MID_ED1_#032]
+$Window(2, "ユナカ")
+Lay it on me. I can handle it.$Wait(0)
+
+[MID_ED1_#033]
+$Window(2, "リュール")
+How about...joining our forces?$Wait(0)
+
+[MID_ED1_#034]
+$Window(2, "ユナカ")
+Say what now?$Wait(0)
+
+[MID_ED1_#035]
+$Window(2, "リュール")
+We're on a journey to collect the Emblem Rings
+and defeat the Fell Dragon.$Wait(2)
+
+[MID_ED1_#036]
+I know it's a lot to ask, but... Will you pledge
+yourself to our cause?$Wait(2)
+
+[MID_ED1_#037]
+What do you think, Alfred? A fitting
+punishment?$Wait(0)
+
+[MID_ED1_#038]
+$Window(2, "アルフレッド")
+I love it. Our army is pretty lean, so adding a
+new recruit makes a lot of sense.$Wait(2)
+
+[MID_ED1_#039]
+And Yunaka clearly has raw talent. She could
+be a real asset.$Wait(0)
+
+[MID_ED1_#040]
+$Window(2, "ユナカ")
+I won't let you down.$Wait(2)
+
+[MID_ED1_#041]
+Thank you. Both of you.$Wait(0)
+
+[MID_ED1_#042]
+$Window(2, "リュール")
+Don't mention it. And, Yunaka, allow me to be
+the first to say... Hiya papaya.$Wait(0)
+
+[MID_ED1_#043]
+$Window(2, "ユナカ")
+Uhh... Hehehe!$Wait(2)
+
+[MID_ED1_#044]
+Hiya papaya back atcha, Divine One!$Wait(0)
+
+[MID_ED1_#045]
+$Window(2, "リュール")
+With that settled, let's hurry onward. We've
+got to cross into Brodia, right?$Wait(0)
+
+[MID_ED1_#046]
+$Window(2, "アルフレッド")
+Yes. Mother sent a letter to the Brodian king
+when we left the castle.$Wait(2)
+
+[MID_ED1_#047]
+He should be expecting us.$Wait(0)
+
+[MID_ED1_#048]
+$Window(2, "リュール")
+Good. The kingdom of might... I'm curious to
+see what it's like there.$Wait(0)
+
+[MID_ED2_#001]
+$Type(2)
+$Window(0, "リュール", "2")
+$Window(2, "リュール")
+Huh? Is that...$Wait(2)
+
+[MID_ED2_#002]
+Hey!$Wait(0)
+
+[MID_ED2_#003]
+$Window(0, "ヴェイル", "1")
+$Window(2, "ヴェイル")
+Hm?$Wait(0)
+
+[MID_ED2_#004]
+$Window(2, "リュール")
+You're the girl I met in Florra Mill Town!
+Veyle, wasn't it?$Wait(0)
+
+[MID_ED2_#005]
+$Window(2, "ヴェイル")
+Oh! What a coincidence finding you
+here, $P.$Wait(0)
+
+[MID_ED2_#006]
+$Window(2, "リュール")
+I'm glad to see you again. You left so abruptly
+last time─it really caught me off guard.$Wait(2)
+
+[MID_ED2_#007]
+Do you live around here?$Wait(0)
+
+[MID_ED2_#008]
+$Window(2, "ヴェイル")
+No. I'm just passing through. Well, looking for
+someone, really.$Wait(0)
+
+[MID_ED2_#009]
+$Window(2, "リュール")
+Who are you looking for?$Wait(0)
+
+[MID_ED2_#010]
+$Window(2, "ヴェイル")
+A person I must talk to again, no matter what.
+My sibling.$Wait(0)
+
+[MID_ED2_#011]
+$Window(2, "リュール")
+You were separated, then... I'm sorry. It's
+painful to be apart from one's family.$Wait(2)
+
+[MID_ED2_#012]
+Do you have any idea where to look?$Wait(0)
+
+[MID_ED2_#013]
+$Window(2, "ヴェイル")
+None. I don't even know what face to look for.
+We've been apart since I was very young.$Wait(2)
+
+[MID_ED2_#014]
+But they did give me something long ago─this.$Wait(0)
+
+[MID_ED2_#015]
+$Window(2, "リュール")
+What a pretty stone.$Wait(0)
+
+[MID_ED2_#016]
+$Window(2, "ヴェイル")
+It's my good-luck charm. I know that as long as
+I have this, we'll be reunited someday.$Wait(0)
+
+[MID_ED2_#017]
+$Window(2, "リュール")
+I'm sure you will.$Wait(2)
+
+[MID_ED2_#018]
+But don't forget to take care of yourself.
+Look─your leg's wounded.$Wait(0)
+
+[MID_ED2_#019]
+$Window(2, "ヴェイル")
+This kind of thing happens all the time.$Wait(0)
+
+[MID_ED2_#020]
+$Window(2, "リュール")
+It looks pretty deep... There, that ought to hold
+for a while.$Wait(0)
+
+[MID_ED2_#021]
+$Window(2, "ヴェイル")
+Thank you. You're quite kind to help a complete
+stranger like me.$Wait(0)
+
+[MID_ED2_#022]
+$Window(2, "リュール")
+You're not a stranger. You saved my
+life, remember?$Wait(2)
+
+[MID_ED2_#023]
+That makes us friends, as far as I'm concerned.
+And friends help each other.$Wait(0)
+
+[MID_ED2_#024]
+$Window(2, "ヴェイル")
+Friends...$Wait(2)
+
+[MID_ED2_#025]
+...$Wait(0)
+
+[MID_ED2_#026]
+$Window(2, "リュール")
+Should I not have said that?$Wait(0)
+
+[MID_ED2_#027]
+$Window(2, "ヴェイル")
+No, no. I'm just so happy to have someone I can
+call a friend. It's like a dream.$Wait(2)
+
+[MID_ED2_#028]
+I can't recall the last time I was treated with
+such kindness.$Wait(0)
+
+[MID_ED2_#029]
+$Window(2, "リュール")
+What do you mean by that?$Wait(0)
+
+[MID_ED2_#030]
+$Window(2, "ヴェイル")
+I'm sorry, but I have to go.$Wait(0)
+
+[MID_ED2_#031]
+$Window(2, "リュール")
+Are you sure?$Wait(0)
+
+[MID_ED2_#032]
+$Window(2, "ヴェイル")
+Thank you for the bandage. Hope to see you
+again, $P.$Wait(0)
+
+[MID_ED2_#033]
+$Window(1, "ヴェイル")
+$Window(2, "リュール")
+There she goes.$Wait(2)
+
+[MID_ED2_#034]
+See you around, Veyle.$Wait(0)
+

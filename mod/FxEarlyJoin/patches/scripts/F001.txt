@@ -1,0 +1,176 @@
+Include("Common")
+-- g_pid_lueur					= "PID_リュール"
+-- g_pid_boss					= "PID_M006_ボス"
+
+-- g_key_tutorial_search		= "チュートリアル_索敵_済"
+-- g_key_tutorial_michaiah		= "チュートリアル_ミカヤ_済"
+-- g_key_engage_michaiah		= "戦闘後会話_ミカヤエンゲージ_済"
+-- g_key_tutorial_shine		= "チュートリアル_シャイン_済"
+
+-- g_key_fixed_boss			= "待機後_ボス_済"
+
+-- g_key_ringBandit_Die		= "指輪持ち蛮族死亡_済"
+-- g_key_Boss_Die				= "ボス死亡_済"
+
+-- -----------------------------------
+
+function Startup()
+	
+	Log("Startup")
+	
+	-- 勝利条件の設定
+	-- ユナカが生存したまま、指輪の奪還と敵将撃破
+	-- WinRuleSetEnemyNumberLessThanOrEqualTo(-1)
+	WinRuleSetMID( "MID_RULE_F001_WIN" )
+	LoseRuleSetMID( "MID_RULE_F00_LOSE" )
+	
+	変数登録()
+	イベント登録()
+
+	if VariableIsExist("G_所持_AllowFX_c") then
+		VariableSet("G_所持_AllowFX_c", 1)
+	else
+		VariableEntry("G_所持_AllowFX_c", 1)
+	end
+end
+
+function Cleanup()
+	
+	Log("Cleanup")
+	
+end
+
+-- -----------------------------------
+
+function 変数登録()
+
+end
+
+function イベント登録()
+	
+end
+
+-- -----------------------------------
+
+function Opening()
+	
+	Log("Opening")
+	
+end
+
+function MapOpening()
+	
+	Log("MapOpening")
+	
+	FadeOutAndWait(FADE_FAST)
+
+	CursorSetPos(17, 3)
+	CursorSetDistanceMode(CURSOR_DISTANCE_NEAR)
+	MapCameraWait()
+
+	FadeInAndWait(FADE_FAST)
+
+	WaitTime(0.1)	
+	MapCameraWait()
+	
+end
+
+-- ---------------------------------------------------------
+
+function 進撃開始直後イベント()
+end
+
+-- ---------------------------------------------------------
+
+function condition_チュートリアル_索敵_ユナカ()
+	
+	return false
+	
+end
+	
+function チュートリアル_索敵()
+end
+
+-- ---------------------------------------------------------
+
+function condition_戦闘後会話_ミカヤエンゲージ()
+	return false
+end
+
+function 戦闘後会話_ミカヤエンゲージ()
+	
+end
+
+-- ---------------------------------------------------------
+
+function condition_チュートリアル_ミカヤ()
+	
+	return false
+	
+end
+
+function チュートリアル_ミカヤ()
+end
+
+-- ---------------------------------------------------------
+
+function エンゲージ後に再生()
+	
+end
+
+-- ---------------------------------------------------------
+
+function 敵１ターン_明かりを消せ()
+
+end
+
+function 自軍２ターン_明かりを灯せ()
+
+end
+
+-- -----------------------------------
+
+function condition_待機後_ボス()
+	
+	return false
+
+end
+
+function 待機後_ボス()
+	
+end
+
+-- ---------------------------------------------------------
+
+function 指輪持ち蛮族死亡()
+
+end
+
+function ボス死亡()
+
+end
+
+-- -----------------------------------
+
+function ユナカ死亡()
+end
+
+-- -----------------------------------
+
+function MapEnding()
+	
+	Log("MapEnding")
+	
+end
+
+function Ending()
+	
+	Log("Ending")
+	
+end
+
+function GameOver()
+	
+	Log("GameOver")
+	
+end

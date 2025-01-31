@@ -1,0 +1,293 @@
+Include("Common")
+g_pid_lueur				= "PID_エル"
+
+g_key_attack			= "攻撃しよう_済"
+g_key_go_closer			= "早く敵に近づこう_済"
+g_key_go_attack			= "早く攻撃しよう_済"
+g_key_engage			= "エンゲージしよう_済"
+g_key_engage_attack		= "エンゲージ技使おう_済"
+g_key_battle			= "戦闘前会話_リュール_ソンブル_済"
+
+-- -----------------------------------
+
+function Startup()
+	
+	Log("Startup")
+	
+	-- 勝利条件の設定
+	WinRuleSetDestroyBoss( true )	-- 敵将撃破
+	WinRuleSetMID("MID_RULE_M000_WIN")
+	LoseRuleSetMID( "MID_RULE_M000_LOSE" )
+
+	フラグ登録()
+	イベント登録()
+	
+end
+
+function フラグ登録()
+	VariableEntry(g_key_go_closer, 1)
+	VariableEntry(g_key_attack, 1)
+	VariableEntry(g_key_go_attack, 1)
+	VariableEntry(g_key_engage, 1)
+	VariableEntry(g_key_engage_attack, 1)
+	VariableEntry(g_key_battle, 1)
+end
+
+function イベント登録()
+	EventEntryTurn(エンゲージカウント上書き, 1, 1, FORCE_PLAYER)
+	EventEntryTurnAfter(移動しよう, 1, 1, FORCE_PLAYER)
+	EventEntryUnitCommandPrepare(チュートリアル_ユニットコマンド, g_pid_lueur, "チュートリアル_ユニットコマンド_済")
+	EventEntryTurn(ターン交代, 1, 1, FORCE_ENEMY)
+	EventEntryTurnAfter(攻撃しよう, 2, -1, FORCE_PLAYER, condition_攻撃しよう)
+	EventEntryTurnAfter(早く敵に近づこう, 2, -1, FORCE_PLAYER, condition_早く敵に近づこう)
+	EventEntryTurnAfter(早く攻撃しよう, 3, -1, FORCE_PLAYER, condition_早く攻撃しよう)
+
+	EventEntryEscape(離脱イベント２, 7,  1, "PID_エル", condition_離脱イベント２)
+	EventEntryEscape(離脱イベント２, 8,  1, "PID_エル", condition_離脱イベント２)
+	EventEntryEscape(離脱イベント２, 9,  1, "PID_エル", condition_離脱イベント２)
+	EventEntryEscape(離脱イベント２, 10, 1, "PID_エル", condition_離脱イベント２)
+	EventEntryEscape(離脱イベント２, 11, 1, "PID_エル", condition_離脱イベント２)
+
+	-- This seems to cause a freeze.
+	-- EventEntryTurn(check_alear_gender, -1, -1, FORCE_PLAYER, condition_check_alear_gender)
+
+
+	-- EventEntryBattleTalk(戦闘前会話_リュール_ソンブル, g_pid_lueur, FORCE_PLAYER, "PID_M000_ソンブル", FORCE_ENEMY, true, g_key_battle)
+
+	-- EventEntryTurnAfter(エンゲージしよう, 3, -1, FORCE_PLAYER, condition_エンゲージしよう )
+	-- EventEntryEngageBefore( エンゲージ, g_pid_lueur, "エンゲージ_済" )
+
+	-- EventEntryDie(Talk, "PID_M000_ソンブル", FORCE_ENEMY, condition_true, "MID_BT2")
+end
+
+function Cleanup()
+	Log("Cleanup")
+end
+
+-- -----------------------------------
+
+function Opening()
+	Log("Opening")
+
+	FadeInAndWait(FADE_SLOW)
+		Movie("S02")
+		SkipEscape()
+	FadeOutAndWait(FADE_NORMAL)
+
+end
+
+function MapOpening()
+	Log("MapOpening")
+
+	WaitTime(0.5)
+
+	-- THIS MIGHT NOT WORK DURING THE TUTORIAL
+	if IsAlearFemale() then
+		Log("[MapOpening] Alear is FEMALE: Summon Male Bluear")
+		Dispos( "Reinforcement1", DISPOS_FLAG_FOCUS )
+	else 
+		Log("[MapOpening] Alear is MALE: Summon Female Bluear")
+		Dispos( "Reinforcement0", DISPOS_FLAG_FOCUS )
+	end
+	Yield()
+	WaitTime( 0.5 )
+
+	-- マルスとシンクロ
+	-- UnitCreateGodUnit(g_pid_lueur, "GID_M000_マルス")
+	-- UnitSetEngageCount(g_pid_lueur, 3)
+	-- CursorSetPos(5, 4)
+	-- CursorSetDistanceMode(CURSOR_DISTANCE_NEAR)
+	-- MapCameraWait()
+	-- FadeWait()
+	-- UnitMovePos(g_pid_lueur, 5, 4, MOVE_FLAG_NONE)
+	-- UnitMoveWait()
+	-- WaitTime(0.5)
+	-- CursorSetPos_FromPid("PID_M000_ソンブル")
+	-- MapCameraWait()
+	-- WaitTime(0.5)
+	-- Talk("MID_OP2")
+	-- WaitTime(1.0)
+	-- Talk("MID_OP3")
+	-- CursorAnimeCreate_FromPid( "PID_M000_ソンブル" )
+	-- CursorAnimeDelete()
+
+	CursorAnimeCreate_FromPid( "PID_M000_ソンブル" )
+	WinRule()
+	CursorAnimeDelete()
+end
+
+-- -----------------------------------
+
+function エンゲージカウント上書き()
+	-- CursorAnimeCreate_FromPid( "g_pid_lueur" )
+	-- UnitSetEngageCount(g_pid_lueur, 3)
+end
+
+-- -----------------------------------
+
+function 移動しよう()
+	Tutorial("TUTID_フェイズチェンジ")
+	Tutorial("TUTID_移動")
+end
+
+-- -----------------------------------
+
+function チュートリアル_ユニットコマンド()
+	Tutorial("TUTID_ユニットコマンド")
+end
+
+-- -----------------------------------
+
+function ターン交代()
+	-- CursorSetPos_FromPid_DistanceModeNear("PID_M000_ソンブル")
+	-- Talk("MID_EV2")
+	-- Tutorial("TUTID_フェイズチェンジ")
+end
+
+--------------------------------------
+
+-- function condition_check_alear_gender()
+-- 	Log("[condition_check_alear_gender] BEG")
+-- 	Log("[condition_check_alear_gender] END")
+-- 	return true
+-- end
+-- function check_alear_gender()
+-- 	Log("[condition_check_alear_gender] BEG")
+-- 	if IsAlearFemale() then
+-- 		Log("[check_alear_gender] Alear is FEMALE")
+-- 	else
+-- 		Log("[check_alear_gender] Alear is MALE")
+-- 	end
+-- 	Log("[check_alear_gender] END")
+-- end
+-- function condition_bluear_appears()
+-- 	local value = VariableGet( g_key_reinforcement_appear )
+-- 	if value == 1 then
+-- 		return false
+-- 	end
+-- 	return true
+-- end
+-- function bluear_appears()
+-- 	if IsAlearFemale() then
+-- 		Log("[bluear_appears] Alear is FEMALE: Summon Male Bluear")
+-- 		Dispos( "Reinforcement1", DISPOS_FLAG_FOCUS )
+-- 		Yield()
+-- 		WaitTime( 0.5 )
+-- 	else
+-- 		Log("[bluear_appears] Alear is MALE: Summon Female Bluear")
+-- 		Dispos( "Reinforcement0", DISPOS_FLAG_FOCUS )
+-- 		Yield()
+-- 		WaitTime( 0.5 )
+-- 	end
+-- 	VariableSet( g_key_reinforcement_appear, 1 )
+-- end
+
+-- -----------------------------------
+
+function condition_早く敵に近づこう()
+	return true
+end
+
+function 早く敵に近づこう()
+end
+
+-- -----------------------------------
+
+function condition_攻撃しよう()
+	return true
+end
+
+function condition_離脱イベント２()
+	return true
+end
+
+function 攻撃しよう()
+	-- Talk("MID_EV3")
+	Tutorial("TUTID_攻撃")
+	VariableSet(g_key_attack, 1)
+end
+
+-- -----------------------------------
+
+function condition_早く攻撃しよう()
+	return true
+end
+
+function 早く攻撃しよう()
+	-- Talk("MID_EV6")
+	VariableSet(g_key_go_attack, 1)
+end
+
+-- -----------------------------------
+
+function 戦闘前会話_リュール_ソンブル()
+	VariableSet(g_key_go_attack, 1)
+	-- Talk("MID_BT1")
+end
+
+-- -----------------------------------
+
+function condition_エンゲージしよう()
+	if VariableGet(g_key_engage) == 1 then
+	    return false
+	end
+
+	if ( UnitGetEngageCount( g_pid_lueur ) == 7 ) and ( not UnitIsStatus( g_pid_lueur, UNIT_STATUS_ENGAGING ) ) then
+	return true
+	end
+	
+	return false
+
+end
+
+function エンゲージしよう()
+	
+	Talk("MID_EV7")
+	Tutorial("TUTID_エンゲージ")
+
+	VariableSet(g_key_engage, 1)
+	
+end
+
+-----------------------------------
+function condition_離脱イベント２()
+	return true
+end
+function 離脱イベント２()
+	VariableSet( "勝利", 1 )
+end
+
+-- -----------------------------------
+
+function エンゲージ()
+	-- FadeOutAndWait(FADE_FAST)
+	-- Movie("S03")
+	-- UnitSetEngaging( g_pid_lueur, true )
+	-- FadeInAndWait(FADE_FAST)
+
+	エンゲージ技使おう()
+end
+
+function エンゲージ技使おう()
+	-- ここでファルシオンに持ち替え
+	-- UnitSetItemEquip(g_pid_lueur, "IID_マルス_ファルシオン")
+	-- Talk( "MID_EV4" )
+	Tutorial( "TUTID_エンゲージ技" )
+	-- VariableSet(g_key_engage_attack, 1)
+end
+
+-- -----------------------------------
+
+function MapEnding()
+	Log("MapEnding")
+end
+
+function Ending()
+	Log("Ending")
+	--SoundPostEvent("Play_BGM_EVT_Serious")
+	 PuppetDemo("M000", "MID_ED1")
+end
+
+function GameOver()
+	Log("GameOver")
+end
