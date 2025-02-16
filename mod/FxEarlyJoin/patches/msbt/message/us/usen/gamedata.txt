@@ -1,0 +1,57 @@
+[MCID_F001_PREFIX]
+Paralogue
+
+[MCID_F001]
+A Familiar World
+
+[MCID_F001_PLACE]
+Mountain Settlement
+
+[MCID_F001_OUTLINE]
+After esaping Sombron's Trap, Nel
+and the four winds find themselves
+in a strange but familiar world.
+
+[MCID_F002_PREFIX]
+Paralogue
+
+[MCID_F002]
+The Fortress
+
+[MCID_F002_PLACE]
+The Bandit Fort 
+
+[MCID_F002_OUTLINE]
+Look, I just wanted to make some
+maps okay? Give me a break here.
+
+[MCID_F003_PREFIX]
+Paralogue
+
+[MCID_F003]
+Meeting of Divine and Fel
+
+[MCID_F003_PLACE]
+Florra Mill Town
+
+[MCID_F003_OUTLINE]
+A chance meeting leads to a
+fateful encounter.
+
+[MID_RULE_F00_LOSE]
+Nel is defeated.
+
+[MID_RULE_F001_WIN]
+Nel escapes.
+
+[MID_RULE_F002_WIN]
+Survive 10 turns.
+
+[MID_RULE_F003_WIN]
+Rout the enemy.
+
+[MID_RULE_M000_WIN]
+Defeat Sombron, or Nel escapes.
+
+[MID_RULE_M000_LOSE]
+Nel is defeated.

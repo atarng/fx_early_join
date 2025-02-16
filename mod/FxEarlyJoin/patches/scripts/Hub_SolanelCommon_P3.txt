@@ -1,0 +1,82 @@
+-- 参照ファイル
+Include("Common")
+Include("Hub_Common")
+
+
+-- -----------------------------------
+
+function HubSolanelNoticeP3()
+	
+	Log("HubSolanelNoticeP3")
+
+	if (CanStartEvil()) then
+		Notice("MID_TUT_HUB_EVIL_START_NOTICE")
+	end
+
+end
+
+function HubSolanelEvilEnd()
+	
+	Log("HubSolanelEvilEnd")
+
+	if (HubIsCompleteChapter("E006") and TryVariable("G_拠点_邪竜エンディング") == false) then
+		VariableEntry("G_拠点_邪竜エンディング", 1)
+
+		MessLoad("E006")
+
+		PuppetDemo("E006", "MID_ED2")
+
+
+		-- ED主題歌ムービー
+		Movie("E07")
+		SkipEscape()
+
+		WaitTime(0.2)
+
+		PuppetDemo("E006", "MID_ED3")	
+		MessFree("E006")
+
+		WaitTime(0.2)
+
+	end
+	
+end
+
+
+-- 邪竜の章開始デモ
+function CanStartEvil()
+
+	if ( HasContent("E0") == false ) then
+		return false;
+	end
+
+	if VariableIsExist("G_拠点_邪竜の章初回") then
+		if VariableGet("G_拠点_邪竜の章初回") != 0 then
+			return false;
+		end
+	end
+
+	if (HubIsCompleteChapter("M006")) then
+	
+		--武器イベントが終わっているか
+		if VariableIsExist("G_拠点_裏武器イベント") then
+			if VariableGet("G_拠点_裏武器イベント") == 3 then
+
+				return true;
+			end
+		end
+	end
+
+	return false;
+
+end
+
+function ScriptStartEvil()
+
+	PuppetDemo("HubCommon", "MID_HUB_DLC2")
+	FadeInAndWait(FADE_FAST)
+	Tutorial("TUTID_邪竜の章");
+
+end
+
+

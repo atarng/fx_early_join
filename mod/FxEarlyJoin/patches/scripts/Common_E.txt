@@ -1,0 +1,130 @@
+Include("Common")
+
+g_key_battleTalk_Selestia_Sepia		= "G_戦闘会話_セレスティア_セピア_済"
+g_key_battleTalk_Gregory_Gris		= "G_戦闘会話_グレゴリー_グリ_済"
+g_key_battleTalk_Madeline_Marron	= "G_戦闘会話_マデリーン_マロン_済"
+
+----------------------------------------------
+-- 邪竜の章で加入済み新キャラの紋章士装備状況を保持する
+----------------------------------------------
+
+g_RecollectionEquipGod = {
+	{ "PID_ラファール",		"イル",			nil },
+	{ "PID_セレスティア",	"セレスティア",	nil },
+	{ "PID_グレゴリー",		"グレゴリー",	nil },
+	{ "PID_マデリーン",		"マデリーン",	nil }
+}
+
+function 邪竜の章_新キャラ紋章士装備状況セーブ()
+	
+	if MapIsRecollection() then
+		
+		for unitId = 1, #g_RecollectionEquipGod do
+			
+			if UnitIsExist( g_RecollectionEquipGod[unitId][1] ) then
+				g_RecollectionEquipGod[unitId][3] = UnitGetGodUnit( g_RecollectionEquipGod[unitId][1] )
+			else
+				g_RecollectionEquipGod[unitId][3] = nil
+			end
+			
+		end
+		
+	end
+	
+end
+
+function 邪竜の章_新キャラ紋章士装備状況ロード( chapter )
+	
+	if MapIsRecollection() then
+		
+		local pid_prefix = "PID_" .. chapter .. "_"
+		
+		for unitId = 1, #g_RecollectionEquipGod do
+			
+			local pid = pid_prefix .. g_RecollectionEquipGod[unitId][2]
+			
+			if ( UnitIsExist( pid ) and ( g_RecollectionEquipGod[unitId][3] != nil ) ) then
+				UnitSetGodUnit( pid, g_RecollectionEquipGod[unitId][3] )
+			end
+			
+		end
+		
+	end
+	
+end
+
+----------------------------------------------
+-- 邪竜の章で加入済み新キャラを出撃できないようにする
+----------------------------------------------
+
+function 邪竜の章_新キャラ出撃不可設定()
+	
+	for unitId = 1, #g_RecollectionEquipGod do
+		
+		local pid = g_RecollectionEquipGod[unitId][1]
+		
+		if UnitIsExist( pid ) then
+			UnitSetStatus(	pid,	UNIT_STATUS_DEFECT + UNIT_STATUS_NEVER_SORTIE )
+			UnitSetGodUnit(	pid,	nil )
+		end
+		
+	end
+	
+end
+
+----------------------------------------------
+-- 邪竜の章で指輪の装備状態を保持する（回想戦は除く）
+----------------------------------------------
+function GodSaveEquipE()
+	
+	if MapIsRecollection() == false then
+		GodSaveEquip()
+	end
+	
+end
+
+function GodLoadEquipE()
+	
+	if MapIsRecollection() == false then
+		GodLoadEquip()
+	end
+	
+end
+
+----------------------------------------------
+-- DLC追加キャラの本編戦闘会話登録
+----------------------------------------------
+
+function E_BattleTalk_VariableEntry()
+	
+	if not VariableIsExist( g_key_battleTalk_Selestia_Sepia ) then
+		VariableEntry(g_key_battleTalk_Selestia_Sepia,	0)
+		VariableEntry(g_key_battleTalk_Gregory_Gris,	0)
+		VariableEntry(g_key_battleTalk_Madeline_Marron,	0)
+	end
+	
+end
+
+----------------------------------------------
+
+function E_BattleTalkEntry_Sepia( pid )
+	if VariableGet( g_key_battleTalk_Selestia_Sepia ) == 0 then
+		EventEntryBattleTalk(Talk, "PID_セレスティア", FORCE_PLAYER, pid, FORCE_ENEMY, true, g_key_battleTalk_Selestia_Sepia, "MID_EX1")
+	end
+end
+
+
+function E_BattleTalkEntry_Gris( pid )
+	if VariableGet( g_key_battleTalk_Gregory_Gris ) == 0 then
+		EventEntryBattleTalk(Talk, "PID_グレゴリー", FORCE_PLAYER, pid, FORCE_ENEMY, true, g_key_battleTalk_Gregory_Gris, "MID_EX2")
+	end
+end
+
+
+function E_BattleTalkEntry_Marron( pid )
+	if VariableGet( g_key_battleTalk_Madeline_Marron ) == 0 then
+		EventEntryBattleTalk(Talk, "PID_マデリーン", FORCE_PLAYER, pid, FORCE_ENEMY, true, g_key_battleTalk_Madeline_Marron, "MID_EX3")
+	end
+end
+
+----------------------------------------------
