@@ -1,5 +1,5 @@
 [package]
-name = "fx_early_join"
+name = "recall_any_battle"
 version = "0.1.0"
 authors = []
 edition = "2021"
@@ -11,8 +11,8 @@ titleid = "01006A800016E000" # Smash Ultimate
 crate-type = ["cdylib"]
 
 [dependencies]
-cobapi = { git = "https://github.com/atarng/cobapi", branch="call_lua_from_code" }
-engage = { git = "https://github.com/atarng/engage", branch="call_lua_from_code" }
+cobapi = { git = "https://github.com/atarng/cobapi", branch="gender_equality.test" }
+engage = { git = "https://github.com/atarng/engage", branch="gender_equality.test" }
 skyline = { git = "https://github.com/ultimate-research/skyline-rs" }
 unity = { git = "https://github.com/DivineDragonFanClub/unity" }
 
